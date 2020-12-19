@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+}
+.features {
+  margin-top: -700px;
+  padding: 1.5rem;
+  cursor: pointer;
+}
+.bg-img {
+  background-image: url("../assets/3506328.jpg");
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: visible;
+}
+.buynow {
+  margin-left: 85px;
+}
+.buynow:hover {
+  transform: scale(1.2);
+}
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}

@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+section > div {
+  border-left: 5px solid rgb(10, 172, 236);
+}
+h1 {
+  font-family: "Roboto", sans-serif;
+}
+.showcase .about .para q {
+  font-size: 1.2rem;
+}
+
