@@ -1,7 +1,7 @@
 ## Website For Software
 #### __A printing & publishing software expert__
 
-![Software site]('src/assets/29938.jpg')
+![Software site](src/assets/29938.jpg)
 
 #### View Demo
 
