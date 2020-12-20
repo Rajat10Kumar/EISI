@@ -5,7 +5,10 @@
 i {
   color: #ffc371;
 }
-
+.bg-footer {
+  background-color: #21d4fd;
+  background-image: linear-gradient(19deg, #21d4fd 15%, #21acff 100%);
+}
 .form-control::placeholder {
   font-size: 0.95rem;
   color: #aaa;
@@ -23,4 +26,11 @@ footer > div > div > div > ul > li > a .ml-2 {
 }
 footer > div > div > div > ul > li .icon {
   font-size: 1.3rem;
+}
+@media screen and (max-width: 995px) {
+  footer div div.row {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1.5rem;
+  }
 }

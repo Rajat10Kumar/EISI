@@ -12,10 +12,10 @@ import { VscLocation } from "react-icons/vsc";
 import "./Footer.css";
 function Footer() {
   return (
-    <footer className="bg-primary text-white">
+    <footer className="bg-footer text-white">
       <div className="container py-5">
         <div className="row">
-          <div className="col-lg-2 mb-2 text-white">
+          <div className="col-lg-2 mb-2 text-white social">
             <h6 className="text-white text-uppercase font-weight-bold">
               Follow Us
             </h6>
@@ -62,7 +62,7 @@ function Footer() {
               </li>
             </ul>
           </div>
-          <div className="col-lg-2 mb-2">
+          <div className="col-lg-2 mb-2 aboutus">
             <h6 className="text-uppercase font-weight-bold mb-4">About Us</h6>
             <ul className="list-unstyled mb-0">
               <li className="mb-2">Testimonials</li>
@@ -72,7 +72,7 @@ function Footer() {
               <li className="mb-2">Sponsorships</li>
             </ul>
           </div>
-          <div className="col-lg-3 mb-2">
+          <div className="col-lg-3 mb-2 contact">
             <h6 className="text-uppercase font-weight-bold mb-4">Contact Us</h6>
             <ul className="list-unstyled mb-0">
               <li className="mb-2">
@@ -87,7 +87,7 @@ function Footer() {
               </li>
             </ul>
           </div>
-          <div className="col-lg-5">
+          <div className="col-lg-5 feedback">
             <h5 className="text-uppercase font-weight-bold ml-2">Feedback</h5>
             <h6 className="ml-2">Connect with us</h6>
             <div className="p-2 rounded">

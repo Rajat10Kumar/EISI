@@ -3,8 +3,12 @@ import "./Navbar.css";
 import { Link } from "react-router-dom";
 import { Image } from "react-bootstrap";
 import logo from "../assets/analytics.svg";
+import { FaBars } from "react-icons/fa";
+import { on } from "react-use/lib/util";
+import { useToggle } from "react-use";
 function Navbar() {
   const [navbar, setNavbar] = useState(false);
+  const [active, setActive] = useToggle(false);
   const changenavbar = () => {
     if (window.scrollY > 0) {
       setNavbar(true);
@@ -20,7 +24,7 @@ function Navbar() {
           EISI
         </Link>
       </a>
-      <ul>
+      <ul className={active ? "active" : null}>
         <li>
           <a>
             <Link to="/" className="text-decoration-none">
@@ -57,6 +61,10 @@ function Navbar() {
           </a>
         </li>
       </ul>
+      <input type="checkbox" id="check" />
+      <label for="check">
+        <FaBars className="bars" onClick={setActive} />
+      </label>
       {/* <div className="bg-primary grid-3 p-2">
       <div>
         <Image src={logo} width="100px" height="50px" className="position-relative" />
@@ -86,8 +94,6 @@ function Navbar() {
         </nav>
       </div>
     </div> */}
-
-      {console.log(window.scrollY)}
     </header>
   );
 }

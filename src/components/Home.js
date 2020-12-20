@@ -36,7 +36,6 @@ import home from "../assets/home.jpg";
 import modules from "../assets/modules.jpg";
 import testimonals from "../assets/4393.jpg";
 import section from "../assets/showcase.svg";
-import Opinion from "../assets/opinion.svg";
 import "./Home.css";
 import MyMapComponent from "./Map";
 function Home() {
@@ -55,7 +54,7 @@ function Home() {
           </p>
           <Button
             variant="primary"
-            className="m-1 button"
+            className="button"
             onClick={() => setSmShow(true)}
           >
             <h5 className="mt-1">Contact Us</h5>
@@ -79,91 +78,91 @@ function Home() {
           </Modal>
         }
         <div className="container">
-          <Image src={home} alt="home" height="100%" width="100%" />
+          <Image src={home} alt="home" className="home1" />
         </div>
       </div>
-      <Fade bottom>
-        <section className="p-4 grid-2 bg-primary">
-          <div className="container ml-5">
-            <Image src={section} height="100%" width="100%" alt="Section" />
-          </div>
-          <div className="container mt-5 text-white p-5">
-            <Fade right>
-              <h3 className="container text-center mt-5">
-                The Printer & Publisher Complete Management Solution for
-                Printing Press & Publishing Industry
-              </h3>
-              <p className="container text-center mt-5">
-                Easy Publish (MIS) Software is an effective tool to organize,
-                evaluate and manage departments within an organization
-              </p>
-            </Fade>
-          </div>
-        </section>
-      </Fade>
+      
+      <section className="p-4 grid-2 bg-section">
+        <div className="container">
+          <Image src={section} className="home2" alt="Section" />
+        </div>
+        <div className="container mt-5 text-white p-5">
+          <Fade right>
+            <h3 className="container text-center mt-5">
+              The Printer & Publisher Complete Management Solution for Printing
+              Press & Publishing Industry
+            </h3>
+            <p className="container text-center mt-5">
+              Easy Publish (MIS) Software is an effective tool to organize,
+              evaluate and manage departments within an organization
+            </p>    
+          </Fade>
+        </div>
+      </section>
+      
       <div className="container text-center mt-5">
         <h1>Modules</h1>
       </div>
       <div className="container grid-2">
         <Fade left>
           <div className="container">
-            <Image src={modules} height="100%" width="100%" />
+            <Image src={modules} className="home3" />
           </div>
         </Fade>
         <Fade right>
           <div className="container">
-            <Image src={testimonals} height="100%" width="100%" />
+            <Image src={testimonals} className="home3" />
           </div>
         </Fade>
       </div>
       <Fade bottom>
         <section className="container grid-6 mt-5">
-          <div className="bg-white shadow-lg rounded p-4 m-1 text-center modules">
-            <FcSurvey className="container my-5" size="1x" />
+          <div className="bg-white shadow-lg rounded  text-center modules">
+            <FcSurvey className="container m-logo" />
             <h5>Masters & Cataloging</h5>
           </div>
-          <div className="bg-white shadow-lg rounded p-4 m-1 text-center modules">
-            <FcSms className="container my-5" size="1x" />
+          <div className="bg-white shadow-lg rounded  text-center modules">
+            <FcSms className="container m-logo" />
             <h5>Quotation</h5>
           </div>
-          <div className="bg-white shadow-lg rounded p-4 m-1 text-center modules">
-            <FcFlowChart className="container my-5" size="1x" />
+          <div className="bg-white shadow-lg rounded  text-center modules">
+            <FcFlowChart className="container m-logo" />
             <h5>Order Management</h5>
           </div>
-          <div className="bg-white shadow-lg rounded p-4 m-1 text-center modules">
-            <FcDebt className="container my-5" size="1x" />
+          <div className="bg-white shadow-lg rounded  text-center modules">
+            <FcDebt className="container m-logo" />
             <h5>Job-card/Sale/ Purchase Order</h5>
           </div>
-          <div className="bg-white shadow-lg rounded p-4 m-1 text-center modules">
-            <FcApproval className="container my-5" size="1x" />
+          <div className="bg-white shadow-lg rounded  text-center modules">
+            <FcApproval className="container m-logo" />
             <h5>Approval Memo</h5>
           </div>
-          <div className="bg-white shadow-lg rounded p-4 m-1 text-center modules">
-            <FcSalesPerformance className="container my-5" size="1x" />
+          <div className="bg-white shadow-lg rounded  text-center modules">
+            <FcSalesPerformance className="container m-logo" />
             <h5>Sale/Purchase</h5>
           </div>
-          <div className="bg-white shadow-lg rounded p-4 m-1 text-center modules">
-            <FcAcceptDatabase className="container my-5" size="1x" />
+          <div className="bg-white shadow-lg rounded  text-center modules">
+            <FcAcceptDatabase className="container m-logo" />
             <h5>Dispatch</h5>
           </div>
-          <div className="bg-white shadow-lg rounded p-4 m-1 text-center modules">
-            <FcWorkflow className="container my-5" size="1x" />
+          <div className="bg-white shadow-lg rounded  text-center modules">
+            <FcWorkflow className="container m-logo" />
             <h5> Automate Invoicing</h5>
           </div>
-          <div className="bg-white shadow-lg rounded p-4 m-1 text-center modules">
-            <FcProcess className="container my-5" size="1x" />
+          <div className="bg-white shadow-lg rounded  text-center modules">
+            <FcProcess className="container m-logo" />
             <h5>Inventory Management (MIS)</h5>
           </div>
-          <div className="bg-white shadow-lg rounded p-4 m-1 text-center modules">
-            <FcRatings className="container my-5" size="1x" />
+          <div className="bg-white shadow-lg rounded  text-center modules">
+            <FcRatings className="container m-logo" />
             <h5>Paper Accounting (With WIP)</h5>
           </div>
-          <div className="bg-white shadow-lg rounded p-4 m-1 text-center modules">
-            <FcTemplate className="container my-5" size="1x" />
+          <div className="bg-white shadow-lg rounded  text-center modules">
+            <FcTemplate className="container m-logo" />
             <h5>Accounting</h5>
           </div>
-          <div className="bg-white shadow-lg rounded p-4 m-1 text-center modules">
-            <FcTodoList className="container my-5" size="1x" />
+          <div className="bg-white shadow-lg rounded  text-center modules">
+            <FcTodoList className="container m-logo" />
             <h5>Statements</h5>
           </div>
         </section>
@@ -316,7 +315,7 @@ function Home() {
             mapElement={<div style={{ height: `100%` }} />}
           />
         </div>
-        <div className="container">
+        <div className="container feedback">
           <Form>
             <h5>Connect With Us</h5>
             <em>

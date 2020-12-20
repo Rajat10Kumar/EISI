@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 .header-area ul li a .btn {
   transition: all 0.2s ease-in;
-  font-size: 1.1rem;
+  font-size: 1.4rem;
   color: #fff;
 }
 .header-area ul li a.btn:hover {
@@ -35,6 +35,7 @@
   font-size: 2em;
   text-transform: uppercase;
   letter-spacing: 2px;
+  transition: 0.6s;
 }
 .header-area ul {
   position: relative;
@@ -45,7 +46,7 @@
 .header-area ul li {
   list-style: none;
   position: relative;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 .header-area ul li a {
   position: relative;
@@ -57,38 +58,100 @@
   color: #fff;
 }
 .header-area.sticky {
-  padding: 5px 10px;
+  padding: 10px 10px;
   background: #fff;
   z-index: 1000000;
-  /* display: none; */
 }
 .header-area.sticky ul li a,
-.header-area.sticky .logo .main-logo{
+.header-area.sticky .logo .main-logo,
+.header-area.sticky .bars {
   color: rgb(0, 183, 255);
-  /* display: none; */
 }
-/* .nav{
-    display: flex;
+header #check {
+  display: none;
+}
+.bars {
+  font-size: 1.7rem;
+  cursor: pointer;
+  display: none;
+  color: #fff;
+}
+@media screen and (max-width: 1100px) {
+  .header-area {
+    justify-content: space-evenly;
+    transition: 0.2s;
+  }
+  .header-area .logo .main-logo {
+    font-weight: 600;
+    font-size: 1.8em;
+    letter-spacing: 1.9px;
+    transition: 0.2s;
+  }
+  .header-area ul {
     justify-content: flex-end;
+    align-items: center;
+    transition: 0.2s;
+  }
+  .header-area ul li {
+    font-size: 1.3rem;
+    transition: 0.2s;
+  }
+  .header-area ul li a {
+    margin: 0 20px;
+    letter-spacing: 1.8px;
+    transition: 0.2s;
+  }
+  .header-area ul li a .btn {
+    transition: all 0.2s ease-in;
+    font-size: 1.3rem;
+  }
+}
+@media screen and (max-width: 980px) {
+  .header-area {
+    justify-content: space-around;
+    text-align: center;
+    transition: 0.4s;
+  }
+  .header-area .logo .main-logo {
+    margin-left: -100px;
+  }
+  .bars {
+    display: block;
+    margin: 0 30px;
+    font-size: 1.6rem;
+    transition: 0.4s;
+  }
+  .header-area ul {
+    position: fixed;
+    width: 100%;
+    height: calc(100vh - 100px);
+    background: rgba(74, 144, 226, 0.4);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    top: 64px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.4s;
+    display: block;
+    font-weight: 800;
+  }
+  .header-area ul li {
     font-size: 1.2rem;
-    margin-top: 1rem;
-    padding: 0.5rem;
-    transition: 0.6s;
-}
-.link{
-    text-transform: capitalize;
+    transition: 0.4s;
+    padding: 25px 0;
+    margin: 25px 0;
+    text-transform: uppercase;
+  }
+  .header-area ul li a .btn {
+    transition: all 0.2s ease-in;
     font-size: 1.2rem;
-    transition: 0.6s;
+    color: #fff;
+  }
+  ul.active {
+    left: 0;
+  }
+  .header-area.sticky .active li a {
+    color: #fff;
+  }
 }
-.link:hover{
-    transform: scale(1.1);
-    color: rgb(214, 236, 255);
-}
-.grid-3{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 1rem;
-}
-h2{
-    font-family: 'Roboto', sans-serif;
-} */
