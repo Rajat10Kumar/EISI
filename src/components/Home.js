@@ -306,7 +306,7 @@ function Home() {
         </div>
       </section>
       <section className="container my-5 grid-2">
-        <div className="container">
+        <div className="container map">
           <MyMapComponent
             isMarkerShown
             googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyBfYAM90l09e7XhASykUkhZh0t-54dpGWQ&v=3.exp&libraries=geometry,drawing,places"

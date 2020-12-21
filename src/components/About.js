@@ -9,6 +9,7 @@ import {
   Col,
   Row,
 } from "react-bootstrap";
+import "./About.css";
 import { Fade, Slide } from "react-reveal";
 import software from "../assets/software.jpg";
 import about from "../assets/about.svg";
@@ -18,11 +19,11 @@ function About() {
     <div>
       <div className="showcase bg-primary grid-2">
         <div className="container-lg mt-5">
-          <Image src={about} width="80%" height="80%" className="mt-5" />
+          <Image src={about} className="about-img mt-5" />
         </div>
         <div className="container mt-5 py-5">
           <Fade right>
-            <p className="text-white text-center p-5 mt-5" style={{fontSize:"1.2rem"}}>
+            <p className="text-white text-center p-5 mt-5">
               <q className="mt-5">
                 Having come across the frustration and delay, mistakes,
                 irregularities, losses due to common Manual way to handling the
@@ -36,11 +37,7 @@ function About() {
           </Fade>
         </div>
       </div>
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 1440 320"
-        style={{ marginTop: "-45px", marginLeft: "-52px" }}
-      >
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 319">
         <path
           fill="#007bff"
           fill-opacity="1"
@@ -66,7 +63,7 @@ function About() {
           </Fade>
         </div>
         <div className="ml-5">
-          <Image src={software} width="90%" height="80%" alt="software" />
+          <Image src={software} className="about-us" alt="software" />
         </div>
       </section>
       <hr />
@@ -75,17 +72,11 @@ function About() {
           <h2 className="text-center p-5">Key Features</h2>
         </div>
         <div className="ml-5">
-          <Image
-            src={features}
-            width="100px"
-            height="500px"
-            alt="software"
-            className="container-sm"
-          />
+          <Image src={features} alt="software" className="container-sm" />
         </div>
       </div>
       <section className="container">
-        <Accordion className="container p-5">
+        <Accordion className="container p-5 accordion">
           <Card bg="light" border="primary">
             <Card.Header>
               <Accordion.Toggle as={Button} variant="link" eventKey="0">
@@ -282,7 +273,14 @@ function About() {
       </section>
       <div className="container my-5">
         <h1 className="text-center">Business Hours</h1>
-        <Table striped bordered hover variant="dark" size="lg">
+        <Table
+          striped
+          bordered
+          hover
+          variant="dark"
+          size="sm"
+          className="table"
+        >
           <thead>
             <tr>
               <th>Day</th>

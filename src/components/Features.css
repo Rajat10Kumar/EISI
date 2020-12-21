@@ -14,6 +14,15 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+div div div .icon-3 {
+  width: 80%;
+  height: 80%;
+  margin: 0 25px;
+  padding: 15px 0;
+}
+div div div.features .card ul li {
+  text-align: start;
+}
 .buynow {
   margin-left: 100px;
 }
@@ -47,10 +56,13 @@ svg path.premium {
   fill: #064c8a;
 }
 @media screen and (max-width: 995px) {
-  .grid-3 .features {
-    gap: 1.8rem;
-    width: 16rem;
-    margin: 0 20px;
+  .features {
+    gap: 1.2rem;
+    width: 15rem;
+  }
+  .buynow {
+    padding: 10px 0;
+    margin: 0 30px;
   }
 }
 @media screen and (max-width: 870px) {
@@ -61,10 +73,85 @@ svg path.premium {
     gap: 0.8rem;
     width: 20rem;
   }
-  .grid-3 .features {
-    margin: 0 50px;
+  .features {
+    margin: 0 250px;
+    width: 16rem;
+    height: 24rem;
+    padding: 14px 20px;
+  }
+  div div div.features .card {
+    width: 14rem;
+    height: 22rem;
+    margin-bottom: 12px;
+    padding: 1rem 0;
+  }
+  div div div.features .card h3 {
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+  div div div.features .card ul li {
+    text-align: start;
+    font-size: 0.8rem;
+  }
+  div div div .icon-3 {
+    width: 40%;
+    height: 30%;
+    margin: 0 70px;
+    padding: 8px 0;
   }
   .buynow {
-    margin-left: 45px;
+    margin-left: 55px;
+    margin-top: -20px;
+  }
+  .buynow.buynow-basic,
+  .buynow.buynow-premium,
+  .buynow.buynow-standard {
+    font-size: 0.6rem;
+  }
+  svg path.basic,
+  svg path.standard,
+  svg path.premium {
+    display: none;
+  }
+}
+@media screen and (max-width: 425px) {
+  .features {
+    width: 15rem;
+    height: 22rem;
+    padding: 18px 25px;
+  }
+  div div div .icon-3 {
+    width: 40%;
+    height: 30%;
+    margin: 0 60px;
+    padding: 8px 0;
+  }
+  div div div.features .card {
+    width: 13rem;
+    height: 20rem;
+    margin-bottom: 10px;
+  }
+  div div div.features .card h3 {
+    text-align: center;
+    font-size: 0.7rem;
+    font-weight: 600;
+  }
+  div div div.features .card ul li {
+    text-align: start;
+    font-size: 0.6rem;
+  }
+  .buynow {
+    margin-top: -10px;
+  }
+  .buynow.buynow-basic,
+  .buynow.buynow-premium,
+  .buynow.buynow-standard {
+    font-size: 0.5rem;
+  }
+  svg path.basic,
+  svg path.standard,
+  svg path.premium {
+    display: none;
   }
 }

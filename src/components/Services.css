@@ -4,4 +4,42 @@
   margin: 0;
   padding: 0;
 }
-
+.list {
+  margin-left: 25px;
+}
+.service-img {
+  height: 100%;
+  width: 100%;
+}
+@media screen and (max-width: 430px) {
+  .grid-2.my-5 .container {
+    margin: 0 -5px;
+  }
+  div .table {
+    width: 250px;
+    margin: 0 20px;
+  }
+  div .table thead tr th {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+  div .table tbody tr td {
+    font-size: 0.6rem;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 395px) {
+  
+  div .table {
+    width: 230px;
+    margin: 0 20px;
+  }
+  div .table thead tr th {
+    font-size: 0.7rem;
+    text-align: center;
+  }
+  div .table tbody tr td {
+    font-size: 0.5rem;
+    text-align: center;
+  }
+}

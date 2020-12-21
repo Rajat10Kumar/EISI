@@ -83,15 +83,10 @@ function Features() {
           </Modal.Footer>
         </Modal>
       }
-      <div className="bg-img p-5">
-        <div>
-          <h1 className="text-center w-100 mt-5 text-uppercase">
-            Our Offerings
-          </h1>
-        </div>
+      <div className="bg-img py-5">
         <div className="grid-3 container my-5">
           <div className="bg-white shadow-lg rounded features">
-            <Card>
+            <Card className="card">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
                 <path
                   //
@@ -103,9 +98,7 @@ function Features() {
               <Card.Img
                 variant="top"
                 src={basic}
-                className="rounded-circle p-4 m-1"
-                height="100%"
-                width="100%"
+                className="rounded-circle icon-3"
               />
               <Card.Body>
                 <Card.Title className="text-center">
@@ -137,7 +130,7 @@ function Features() {
             </Card>
           </div>
           <div className="bg-white shadow-lg rounded features">
-            <Card>
+            <Card className="card">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
                 <path
                   className="standard"
@@ -149,7 +142,7 @@ function Features() {
               <Card.Img
                 variant="top"
                 src={standard}
-                className="rounded-circle p-4 m-1"
+                className="rounded-circle icon-3"
                 height="100%"
                 width="100%"
               />
@@ -181,7 +174,7 @@ function Features() {
             </Card>
           </div>
           <div className="bg-white shadow-lg rounded features">
-            <Card>
+            <Card className="card">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
                 <path
                   // fill="#F32013"
@@ -193,7 +186,7 @@ function Features() {
               <Card.Img
                 variant="top"
                 src={premium}
-                className="rounded-circle p-4 m-1"
+                className="rounded-circle icon-3"
                 height="100%"
                 width="100%"
               />

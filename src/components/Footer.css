@@ -25,19 +25,45 @@ footer > div > div > div > ul > li > a .ml-2 {
   font-size: 1.3rem;
 }
 footer > div > div > div > ul > li .icon {
+  color: #fff;
   font-size: 1.3rem;
 }
 @media screen and (max-width: 995px) {
   footer div div.row {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
   }
 }
 @media screen and (max-width: 520px) {
   footer div div.row {
     display: grid;
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns: repeat(1, 1fr);
     gap: 1rem;
+  }
+  footer > div > div > div > ul > li > a .ml-2 {
+    font-size: 1.1rem;
+  }
+  footer > div > div > div > ul > li .icon {
+    font-size: 1.1rem;
+  }
+}
+@media screen and (max-width: 425px) {
+  footer div div.row {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0.8rem;
+  }
+  footer > div > div > div > ul > li > a .ml-2 {
+    font-size: 1rem;
+  }
+  footer > div > div > div > ul > li .icon {
+    font-size: 0.9rem;
+  }
+  footer div div.row div.feedback div.rounded input {
+    width: 60%;
+  }
+  footer p {
+    font-size: 0.8rem;
   }
 }

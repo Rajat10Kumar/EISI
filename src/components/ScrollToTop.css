@@ -26,3 +26,10 @@
     transform: translateY(-1px);
   }
 }
+@media screen and (max-width: 395px) {
+  .scroll-to-top {
+    right: 5%;
+    background-color: #0276e1;
+    background-image: linear-gradient(15deg, #09adee 0%, #2c77c2 55%);
+  }
+}

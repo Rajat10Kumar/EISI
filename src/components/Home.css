@@ -287,10 +287,30 @@ section .container .carousel-center .carousel .card {
   section .container .carousel-center .carousel {
     width: 15rem;
   }
+  section .container .carousel-center .carousel .card {
+    width: 15rem;
+    font-size: 1.1rem;
+  }
   .modules h5 {
     font-size: 1.1rem;
   }
   section.testimonals h1 {
     font-size: 1.2rem;
+  }
+  section div.container.map {
+    widows: 50%;
+    height: 50%;
+    margin: 100px 0;
+  }
+}
+@media screen and (max-width: 425px) {
+  section .container .carousel-center .carousel {
+    height: 15rem;
+    width: 14rem;
+  }
+  section div.container.map {
+    widows: 45%;
+    height: 45%;
+    margin: 150px 0;
   }
 }

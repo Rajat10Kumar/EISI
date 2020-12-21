@@ -5,12 +5,85 @@
 }
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
-section > div {
-  border-left: 5px solid rgb(10, 172, 236);
-}
 h1 {
   font-family: "Roboto", sans-serif;
 }
 .showcase .about .para q {
   font-size: 1.2rem;
+}
+div div .about-img {
+  height: 90%;
+  width: 100%;
+}
+section div .about-us {
+  height: 90%;
+  width: 100%;
+}
+div div.container-sm {
+  width: "100px";
+  height: "500px";
+}
+@media screen and (max-width: 1420px) {
+  div div .about-img {
+    height: 80%;
+    width: 90%;
+  }
+}
+@media screen and (max-width: 1080px) {
+  div div .about-img {
+    height: 75%;
+    width: 85%;
+    margin: 0 50px;
+  }
+  section div .about-us {
+    height: 70%;
+    width: 80%;
+    margin: 0 50px;
+  }
+}
+@media screen and (max-width: 980px) {
+  div div .about-img {
+    height: 60%;
+    width: 70%;
+    margin: 0 100px;
+  }
+  section div .about-us {
+    height: 60%;
+    width: 70%;
+    margin: 0 100px;
+  }
+}
+@media screen and (max-width: 440px) {
+  div div .about-img {
+    height: 50%;
+    width: 60%;
+    margin: 0 50px -100px 50px;
+  }
+  section div .about-us {
+    height: 60%;
+    width: 65%;
+    margin: 0 40px;
+  }
+  div div p q {
+    font-size: 1.1rem;
+  }
+  div div.container-sm {
+    width: "100px";
+    height: "300px";
+  }
+  section .accordion {
+    width: 90%;
+    font-size: 0.5rem;
+    text-align: start;
+  }
+  div div h2 {
+    font-size: 1.2rem;
+  }
+  div.container h1 {
+    font-size: 1.2rem;
+  }
+  div.container .table {
+    width: 250px;
+    margin: 0 70px;
+  }
 }

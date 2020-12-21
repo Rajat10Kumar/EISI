@@ -15,7 +15,7 @@ function Services() {
         <div className="container">
           <h1 className="text-center mt-5">Services</h1>
           <Slide left>
-            <ListGroup className="ml-5 p-2" >
+            <ListGroup className="list" >
               <ListGroupItem action href="#link1">
                 Inventory Management (MIS)
               </ListGroupItem>
@@ -38,7 +38,7 @@ function Services() {
           </Slide>
         </div>
         <div className="container">
-          <Image src={services} height="100%" width="100%" alt="services" />
+          <Image src={services} className="service-img" alt="services" />
         </div>
       </div>
       <div className="container">
@@ -53,7 +53,7 @@ function Services() {
       </div>
       <div className="container my-5 py-2">
         <h4 className="text-center">Prices</h4>
-        <Table striped bordered hover size="sm">
+        <Table striped bordered hover size="sm" className="table">
           <thead>
             <tr>
               <th>Software</th>

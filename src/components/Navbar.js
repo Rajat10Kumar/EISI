@@ -27,35 +27,51 @@ function Navbar() {
       <ul className={active ? "active" : null}>
         <li>
           <a>
-            <Link to="/" className="text-decoration-none">
+            <Link to="/" className="text-decoration-none" onClick={setActive}>
               Home
             </Link>
           </a>
         </li>
         <li>
           <a>
-            <Link to="/About" className="text-decoration-none">
+            <Link
+              to="/About"
+              className="text-decoration-none"
+              onClick={setActive}
+            >
               About
             </Link>
           </a>
         </li>
         <li>
           <a>
-            <Link to="/Features" className="text-decoration-none">
+            <Link
+              to="/Features"
+              className="text-decoration-none"
+              onClick={setActive}
+            >
               Features
             </Link>
           </a>
         </li>
         <li>
           <a>
-            <Link to="/Services" className="text-decoration-none">
+            <Link
+              to="/Services"
+              className="text-decoration-none"
+              onClick={setActive}
+            >
               AMC & Services
             </Link>
           </a>
         </li>
         <li>
           <a>
-            <Link to="/SignUp" className="text-decoration-none btn">
+            <Link
+              to="/SignUp"
+              className="text-decoration-none btn"
+              onClick={setActive}
+            >
               Signup
             </Link>
           </a>
