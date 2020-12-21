@@ -34,3 +34,10 @@ footer > div > div > div > ul > li .icon {
     gap: 1.5rem;
   }
 }
+@media screen and (max-width: 520px) {
+  footer div div.row {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 1rem;
+  }
+}

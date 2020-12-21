@@ -246,3 +246,51 @@ section .container .carousel-center .carousel .card {
     font-size: 4rem;
   }
 }
+@media screen and (max-width: 520px) {
+  .grid-2 h1 {
+    font-size: 1.8rem;
+  }
+  .grid-2 p {
+    font-size: 0.7rem;
+  }
+  .grid-2 .container .home1 {
+    height: 65%;
+    width: 65%;
+    margin: 0 60px;
+  }
+  section .container .home2 {
+    height: 100%;
+    width: 100%;
+    margin-left: -10px;
+  }
+  div.heading h1 {
+    font-size: 1.2rem;
+  }
+  div > div > .home3 {
+    height: 70%;
+    width: 70%;
+    margin: 0 50px;
+  }
+  section.grid-6 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  section div .m-logo {
+    font-size: 3rem;
+    padding: 0;
+  }
+  section .container h3 {
+    font-size: 1.2rem;
+  }
+  section .container p {
+    font-size: 0.8rem;
+  }
+  section .container .carousel-center .carousel {
+    width: 15rem;
+  }
+  .modules h5 {
+    font-size: 1.1rem;
+  }
+  section.testimonals h1 {
+    font-size: 1.2rem;
+  }
+}

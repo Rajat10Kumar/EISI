@@ -3,20 +3,19 @@ body {
   font-family: "Roboto", sans-serif;
 }
 .features {
-  margin-top: -700px;
   padding: 1.5rem;
   cursor: pointer;
 }
 .bg-img {
   background-image: url("../assets/3506328.jpg");
-  height: 800px;
+  width: 100vw;
+  height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  overflow: visible;
 }
 .buynow {
-  margin-left: 85px;
+  margin-left: 50px;
 }
 .buynow:hover {
   transform: scale(1.2);
@@ -25,4 +24,26 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
+}
+@media screen and (max-width: 995px) {
+  .grid-3 .features {
+    gap: 1.8rem;
+    width: 16rem;
+    margin: 0 20px;
+  }
+}
+@media screen and (max-width: 870px) {
+  .grid-3 {
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+    width: 20rem;
+  }
+  .grid-3 .features {
+    margin: 0 50px;
+  }
+  .buynow {
+    margin-left: 45px;
+  }
 }

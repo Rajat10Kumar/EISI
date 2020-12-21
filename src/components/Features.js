@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { Card, Button, Modal, Form, Col } from "react-bootstrap";
 import "./Features.css";
-import basic from "../assets/basic.JPG";
-import standard from "../assets/standard.JPG";
-import premium from "../assets/premium.JPG";
+import basic from "../assets/basic.png";
+import standard from "../assets/standard.png";
+import premium from "../assets/premium.png";
 function Features() {
   const [modalShow, setModalShow] = useState(false);
   return (
@@ -89,7 +89,6 @@ function Features() {
             Our Offerings
           </h1>
         </div>
-      </div>
       <div className="grid-3 container my-5">
         <div className="bg-white shadow-lg rounded features">
           <Card border="success">
@@ -223,6 +222,7 @@ function Features() {
             </svg>
           </Card>
         </div>
+      </div>
       </div>
     </div>
   );

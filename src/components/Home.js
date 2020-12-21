@@ -100,7 +100,7 @@ function Home() {
         </div>
       </section>
       
-      <div className="container text-center mt-5">
+      <div className="container text-center mt-5 heading">
         <h1>Modules</h1>
       </div>
       <div className="container grid-2">

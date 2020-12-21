@@ -19,7 +19,7 @@ function Navbar() {
   window.addEventListener("scroll", changenavbar);
   return (
     <header className={navbar ? "header-area sticky" : "header-area"}>
-      <a href="#" className="logo">
+      <a href="#" className="logo mb-2">
         <Link to="/" className="text-decoration-none main-logo">
           EISI
         </Link>
