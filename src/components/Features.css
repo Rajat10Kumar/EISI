@@ -9,7 +9,7 @@ body {
 .bg-img {
   background-image: url("../assets/19007.jpg");
   width: 100vw;
-  height: 100%;
+  height: 1000%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -121,6 +121,18 @@ svg path.premium {
     height: 22rem;
     padding: 18px 25px;
   }
+  div div .b-f {
+    background-color: #0694fa;
+    background-image: linear-gradient(359deg, #0694fa 0%, #43b9f3 25%);
+  }
+  div div .s-f {
+    background-color: #0276e1;
+    background-image: linear-gradient(315deg, #0276e1 0%, #2089f5 25%);
+  }
+  div div .p-f {
+    background-color: #064c8a;
+    background-image: linear-gradient(315deg, #064c8a 0%, #05274f 100%);
+  }
   div div div .icon-3 {
     width: 40%;
     height: 30%;
@@ -130,7 +142,13 @@ svg path.premium {
   div div div.features .card {
     width: 13rem;
     height: 20rem;
-    margin-bottom: 10px;
+    margin: 0 -8px;
+  }
+  .modal {
+    margin: 20px -9px;
+  }
+  .modal #contained-modal-title-vcenter {
+    font-size: 1rem;
   }
   div div div.features .card h3 {
     text-align: center;
@@ -141,8 +159,9 @@ svg path.premium {
     text-align: start;
     font-size: 0.6rem;
   }
-  .buynow {
+  div div div.features .card .buynow {
     margin-top: -10px;
+    padding: 2px 5px;
   }
   .buynow.buynow-basic,
   .buynow.buynow-premium,

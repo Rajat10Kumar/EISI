@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Card, Button, Modal, Form, Col } from "react-bootstrap";
+import { Card, Button, Modal, Form, Col, Table } from "react-bootstrap";
 import "./Features.css";
 import basic from "../assets/basic.png";
 import standard from "../assets/standard.png";
@@ -11,6 +11,7 @@ function Features() {
       {
         <Modal
           size="lg"
+          className="modal"
           aria-labelledby="contained-modal-title-vcenter"
           centered
           show={modalShow}
@@ -85,7 +86,7 @@ function Features() {
       }
       <div className="bg-img py-5">
         <div className="grid-3 container my-5">
-          <div className="bg-white shadow-lg rounded features">
+          <div className="bg-white shadow-lg rounded features b-f">
             <Card className="card">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
                 <path
@@ -129,7 +130,7 @@ function Features() {
               </svg>
             </Card>
           </div>
-          <div className="bg-white shadow-lg rounded features">
+          <div className="bg-white shadow-lg rounded features s-f">
             <Card className="card">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
                 <path
@@ -173,7 +174,7 @@ function Features() {
               </svg>
             </Card>
           </div>
-          <div className="bg-white shadow-lg rounded features">
+          <div className="bg-white shadow-lg rounded features p-f">
             <Card className="card">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
                 <path
@@ -219,6 +220,105 @@ function Features() {
               </svg>
             </Card>
           </div>
+        </div>
+        <div className="container my-5 py-2">
+          <h4 className="text-center">Prices</h4>
+          <Table striped bordered hover size="sm" className="table">
+            <thead>
+              <tr>
+                <th colspan={4}>Choose Additional Featues If Required</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Customization per feature</td>
+                <td>Rs. 9999</td>
+                <td>Single to Multiuser Upgrade(4 User Free)</td>
+                <td>Rs. 12000</td>
+              </tr>
+              <tr>
+                <td>Costing Module</td>
+                <td>Rs. 9999</td>
+                <td>Additional User</td>
+                <td>Rs. 3999</td>
+              </tr>
+              <tr>
+                <td>
+                  Forecasting and Supplement order planning management
+                  (Intergrated with Busy)
+                </td>
+                <td>Rs. 19999</td>
+                <td>Additional 4 User pack for Multi-user operations</td>
+                <td>Rs. 11999</td>
+              </tr>
+              <tr>
+                <td>Work flow approval</td>
+                <td>Rs. 4999</td>
+                <td>Additional Company</td>
+                <td>Rs. 4999</td>
+              </tr>
+              <tr>
+                <td>Editorial status Tracker</td>
+                <td>Rs. 39999</td>
+                <td>
+                  Annual subscription for user version upgrade including
+                  support(Basic Price)
+                </td>
+                <td>25%</td>
+              </tr>
+              <tr>
+                <td>Email/SMS Integration</td>
+                <td>Rs. 9999</td>
+                <td>
+                  Branch/Reference discount applicable from 2nd branch onwards
+                </td>
+                <td>20%</td>
+              </tr>
+            </tbody>
+          </Table>
+        </div>
+        <div className="container my-5 py-2">
+          <h4 className="text-center">Prices</h4>
+          <Table striped bordered hover size="sm" className="table">
+            <thead>
+              <tr>
+                <th colspan={4}>Additional Modules and Plugins</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Remote SQL Server Hosting as peractual</td>
+                <td>As per Actual</td>
+                <td>Basic Installation(Single & Multi user)</td>
+                <td>Rs. 10000</td>
+              </tr>
+              <tr>
+                <td>Busy Software</td>
+                <td>AS per Actual</td>
+                <td>Subscription module (single user annual)</td>
+                <td>Rs. 18000</td>
+              </tr>
+              <tr>
+                <td>Busy Intergration module</td>
+                <td>Rs. 19999</td>
+                <td>Subscription module (multi user annual)</td>
+                <td>Rs. 30000</td>
+              </tr>
+              <tr>
+                <td>
+                  Branch Management (Remote Connectibity) Automatic
+                  Synchronization of data & availability based on user rights
+                </td>
+                <td>Rs. 19999</td>
+                <td>Dipatch Management</td>
+                <td>Rs. 75000</td>
+              </tr>
+              <tr>
+                <td colSpan={2}>CRM Management</td>
+                <td colSpan={2}>Rs. 30000</td>
+              </tr>
+            </tbody>
+          </Table>
         </div>
       </div>
     </div>

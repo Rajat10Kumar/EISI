@@ -19,6 +19,9 @@ section div .about-us {
   height: 90%;
   width: 100%;
 }
+div div p {
+  text-align: start;
+}
 div div.container-sm {
   width: "100px";
   height: "500px";
@@ -64,17 +67,30 @@ div div.container-sm {
     width: 65%;
     margin: 0 40px;
   }
-  div div p q {
+  section div h3 {
     font-size: 1.1rem;
+    text-align: start;
+  }
+  section div p {
+    font-size: 0.8rem;
+    text-align: start;
+  }
+  div div p {
+    font-size: 0.8rem;
+    text-align: start;
   }
   div div.container-sm {
     width: "100px";
     height: "300px";
   }
   section .accordion {
-    width: 90%;
-    font-size: 0.5rem;
+    font-size: 0.7rem;
     text-align: start;
+  }
+  section .accordion .card-bg {
+    font-size: 0.8rem;
+    background-color: #dcffff;
+    background-image: linear-gradient(0deg, #dcffff 25%, #9cffff 50%);
   }
   div div h2 {
     font-size: 1.2rem;
@@ -84,6 +100,6 @@ div div.container-sm {
   }
   div.container .table {
     width: 250px;
-    margin: 0 70px;
+    margin: 0 50px 10px 40px;
   }
 }

@@ -12,12 +12,22 @@
   width: 100%;
 }
 @media screen and (max-width: 430px) {
+  .list {
+    margin: 25px;
+    font-size: 0.9rem;
+  }
   .grid-2.my-5 .container {
     margin: 0 -5px;
   }
-  div .table {
+  div.container .table {
     width: 250px;
-    margin: 0 20px;
+    margin: 10px;
+  }
+  div.container h5 {
+    font-size: 1rem;
+  }
+  div ul li {
+    font-size: 0.9rem;
   }
   div .table thead tr th {
     font-size: 0.8rem;
@@ -29,7 +39,6 @@
   }
 }
 @media screen and (max-width: 395px) {
-  
   div .table {
     width: 230px;
     margin: 0 20px;

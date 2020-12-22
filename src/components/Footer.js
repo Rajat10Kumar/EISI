@@ -22,6 +22,26 @@ function Footer() {
             <ul className="mt-4 text-white list-unstyled">
               <li className="mb-2">
                 <a
+                  href="https://www.linkedin.com/in/easy-info-solutions-international-552ba93a/"
+                  target="_blank"
+                  className="text-white ml-1 text-decoration-none"
+                >
+                  Linkedin
+                  <AiOutlineLinkedin className="ml-2" />
+                </a>
+              </li>
+              <li className="mb-2">
+                <a
+                  href="https://www.youtube.com/channel/UCW5RVD8qIBTGzCSRM03U7Cw"
+                  target="_blank"
+                  className="text-white ml-1 text-decoration-none"
+                >
+                  Youtube
+                  <AiOutlineYoutube className="ml-2" />
+                </a>
+              </li>
+              <li className="mb-2">
+                <a
                   href="#"
                   target="_blank"
                   className="text-white ml-1 text-decoration-none"
@@ -38,26 +58,6 @@ function Footer() {
                 >
                   Facebook
                   <AiOutlineFacebook className="ml-2" />
-                </a>
-              </li>
-              <li className="mb-2">
-                <a
-                  href="#"
-                  target="_blank"
-                  className="text-white ml-1 text-decoration-none"
-                >
-                  Linkedin
-                  <AiOutlineLinkedin className="ml-2" />
-                </a>
-              </li>
-              <li className="mb-2">
-                <a
-                  href="#"
-                  target="_blank"
-                  className="text-white ml-1 text-decoration-none"
-                >
-                  Youtube
-                  <AiOutlineYoutube className="ml-2" />
                 </a>
               </li>
             </ul>

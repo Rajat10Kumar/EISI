@@ -68,11 +68,11 @@ function Navbar() {
         <li>
           <a>
             <Link
-              to="/SignUp"
-              className="text-decoration-none btn"
+              to="/Demo"
+              className="text-decoration-none"
               onClick={setActive}
             >
-              Signup
+              Demo
             </Link>
           </a>
         </li>

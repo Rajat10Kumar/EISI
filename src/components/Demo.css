@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+}
+.v-bg {
+  background-image: url("../assets/19007.jpg");
+  width: 100vw;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+div .accordion {
+  margin: 25px;
+}
+div.container.grid-2 {
+  margin: 100px;
+}
+div div.container.video {
+  margin: 10px 0;
+}
+@media screen and (max-width: 1080px) {
+  div.container.grid-2 {
+    margin: 80px 300px;
+  }
+  div div.container.video {
+    margin: 5px 0;
+  }
+}
+@media screen and (max-width: 780px) {
+  div.container.grid-2 {
+    margin: 100px 200px;
+  }
+}
+@media screen and (max-width: 425px) {
+  div.container.grid-2 {
+    margin: 90px 1px;
+  }
+  div div.container.video {
+    width: 100px;
+  }
+  div .accordion {
+    margin-bottom: 50px;
+  }
+}

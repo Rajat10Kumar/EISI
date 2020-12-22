@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
+import lottie from "lottie-web";
 import {
   Button,
   Image,
@@ -40,20 +41,30 @@ import "./Home.css";
 import MyMapComponent from "./Map";
 function Home() {
   const [smShow, setSmShow] = useState(false);
+  const container = useRef(null);
+
+  useEffect(() => {
+    lottie.loadAnimation({
+      container: container.current,
+      renderer: "svg",
+      loop: true,
+      autoplay: true,
+      animationData: require("../assets/team.json"),
+    });
+  }, []);
   return (
     <div>
       <div className="grid-2 mt-5">
         <div className="container text-center mt-5">
           <h1 className="container mt-5">Easy Info Solutions International</h1>
-          <p className="container mt-1">
+          <p className="container">
             Printing & Publishing MIS Software Expert
           </p>
-          <p className="container mt-1">Printing & Publishing</p>
-          <p className="container mt-1">
-            Needs Much More than A Standard Accounting Software
+          <p className="container">Printing & Publishing</p>
+          <p className="container">
+            <i>Needs Much More than A Standard Accounting Software</i>
           </p>
           <Button
-            variant="primary"
             className="button"
             onClick={() => setSmShow(true)}
           >
@@ -77,29 +88,31 @@ function Home() {
             <Modal.Body>Helpline no : +91 11-71862265</Modal.Body>
           </Modal>
         }
-        <div className="container">
-          <Image src={home} alt="home" className="home1" />
+        <div className="container my-5">
+          <div ref={container}></div>
         </div>
       </div>
-      
+
       <section className="p-4 grid-2 bg-section">
         <div className="container">
           <Image src={section} className="home2" alt="Section" />
         </div>
         <div className="container mt-5 text-white p-5">
           <Fade right>
-            <h3 className="container text-center mt-5">
+            <h3 className="container mt-2">
               The Printer & Publisher Complete Management Solution for Printing
               Press & Publishing Industry
             </h3>
-            <p className="container text-center mt-5">
+            <p className="container mt-5">
               Easy Publish (MIS) Software is an effective tool to organize,
-              evaluate and manage departments within an organization
-            </p>    
+              evaluate and manage departments within an organization. Deals as
+              Printing & Publication Software Experts. This software resolves
+              your daily routine problems with in the fraction of seconds.
+            </p>
           </Fade>
         </div>
       </section>
-      
+
       <div className="container text-center mt-5 heading">
         <h1>Modules</h1>
       </div>
@@ -181,8 +194,8 @@ function Home() {
                     className="rounded-circle p-5"
                   />
                   <Card.Body>
-                    <Card.Title className="text-center">Card Title</Card.Title>
-                    <Card.Text className="p-1 my-1">
+                    <Card.Title className="text-center">MD,Avinash Thakur</Card.Title>
+                    <Card.Text className="p-1 my-1 tm-p">
                       Some quick example text to build on the card title and
                       make up the bulk of the card's content.
                     </Card.Text>
@@ -197,8 +210,8 @@ function Home() {
                     className="rounded-circle p-5"
                   />
                   <Card.Body>
-                    <Card.Title className="text-center">Card Title</Card.Title>
-                    <Card.Text className="p-1 my-1">
+                    <Card.Title className="text-center">Production Head,Avinash Thakur</Card.Title>
+                    <Card.Text className="p-1 my-1 tm-p">
                       Some quick example text to build on the card title and
                       make up the bulk of the card's content.
                     </Card.Text>
@@ -213,8 +226,8 @@ function Home() {
                     className="rounded-circle p-5"
                   />
                   <Card.Body>
-                    <Card.Title className="text-center">Card Title</Card.Title>
-                    <Card.Text className="p-1 my-1">
+                    <Card.Title className="text-center">MD,Avinash Thakur</Card.Title>
+                    <Card.Text className="p-1 my-1 tm-p">
                       Some quick example text to build on the card title and
                       make up the bulk of the card's content.
                     </Card.Text>
@@ -229,8 +242,8 @@ function Home() {
                     className="rounded-circle p-5"
                   />
                   <Card.Body>
-                    <Card.Title className="text-center">Card Title</Card.Title>
-                    <Card.Text className="p-1 my-1">
+                    <Card.Title className="text-center">MD,Avinash Thakur</Card.Title>
+                    <Card.Text className="p-1 my-1 tm-p">
                       Some quick example text to build on the card title and
                       make up the bulk of the card's content.
                     </Card.Text>
@@ -245,8 +258,8 @@ function Home() {
                     className="rounded-circle p-5"
                   />
                   <Card.Body>
-                    <Card.Title className="text-center">Card Title</Card.Title>
-                    <Card.Text className="p-1 my-1">
+                    <Card.Title className="text-center">MD,Avinash Thakur</Card.Title>
+                    <Card.Text className="p-1 my-1 tm-p">
                       Some quick example text to build on the card title and
                       make up the bulk of the card's content.
                     </Card.Text>
@@ -261,24 +274,8 @@ function Home() {
                     className="rounded-circle p-5"
                   />
                   <Card.Body>
-                    <Card.Title className="text-center">Card Title</Card.Title>
-                    <Card.Text className="p-1 my-1">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </Card.Text>
-                  </Card.Body>
-                </Card>
-              </Carousel.Item>
-              <Carousel.Item interval={1000}>
-                <Card className="card">
-                  <Card.Img
-                    variant="top"
-                    src={avatar7}
-                    className="rounded-circle p-5"
-                  />
-                  <Card.Body>
-                    <Card.Title className="text-center">Card Title</Card.Title>
-                    <Card.Text className="p-1 my-1">
+                    <Card.Title className="text-center">MD,Avinash Thakur</Card.Title>
+                    <Card.Text className="p-1 my-1 tm-p">
                       Some quick example text to build on the card title and
                       make up the bulk of the card's content.
                     </Card.Text>
@@ -293,8 +290,8 @@ function Home() {
                     className="rounded-circle p-5"
                   />
                   <Card.Body>
-                    <Card.Title className="text-center">Card Title</Card.Title>
-                    <Card.Text className="p-1 my-1">
+                    <Card.Title className="text-center">MD,Avinash Thakur</Card.Title>
+                    <Card.Text className="p-1 my-1 tm-p">
                       Some quick example text to build on the card title and
                       make up the bulk of the card's content.
                     </Card.Text>
@@ -305,6 +302,9 @@ function Home() {
           </div>
         </div>
       </section>
+      <div className="container">
+        <Image src={home} alt="home" className="home1" />
+      </div>
       <section className="container my-5 grid-2">
         <div className="container map">
           <MyMapComponent
@@ -360,13 +360,13 @@ function Home() {
                   <option value="6">Others</option>
                 </Form.Control>
               </Form.Group>
-              <Form.Group as={Col}>
+              <Form.Group as={Col} className="tel">
                 <Form.Label>Telephone Number</Form.Label>
                 <Form.Control type="tel" placeholder="Telephone Number" />
               </Form.Group>
             </Form.Row>
             <Form.Row>
-              <Form.Group as={Col}>
+              <Form.Group as={Col} className="msg">
                 <Form.Label>Message</Form.Label>
                 <Form.Control as="textarea" placeholder="Message" />
               </Form.Group>

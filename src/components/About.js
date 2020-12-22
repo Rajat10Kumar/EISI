@@ -23,7 +23,7 @@ function About() {
         </div>
         <div className="container mt-5 py-5">
           <Fade right>
-            <p className="text-white text-center p-5 mt-5">
+            <p className="text-white p-4 mt-5">
               <q className="mt-5">
                 Having come across the frustration and delay, mistakes,
                 irregularities, losses due to common Manual way to handling the
@@ -34,10 +34,24 @@ function About() {
                 the uniform results.
               </q>
             </p>
+            <p className="text-white p-4">
+              <q>
+                With more than the two decades of experiences of Printing and
+                Publishing Industry, the developer is well versed with the need
+                and procedures of printing and publishing process. Having come
+                across the frustration and delay, mistakes, irregularities,
+                losses due to common Manual way to handling the jobs and working
+                on software developed by the outside of the trade, the
+                developers then decided to develop “Easy Publish” ,”Easy Print”
+                and “Easy Despatch” to get rid of problems like much time
+                involvement in estimating manually, internal challenges of
+                training of staff, to achieve the uniform results.
+              </q>
+            </p>
           </Fade>
         </div>
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 319">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 319" style={{marginTop:"-32px"}}>
         <path
           fill="#007bff"
           fill-opacity="1"
@@ -51,7 +65,7 @@ function About() {
             <h3 className="text-center text-primary p-2 m-5">
               For whom this software has been developed?
             </h3>
-            <p className="text-center text-primary p-5 m-5">
+            <p className="text-primary p-5 m-5">
               <q>
                 These software’s are designed for small and medium Publishers
                 and Print houses to guard them against a lot of time
@@ -66,7 +80,6 @@ function About() {
           <Image src={software} className="about-us" alt="software" />
         </div>
       </section>
-      <hr />
       <div className="container flex flex-column">
         <div className="container">
           <h2 className="text-center p-5">Key Features</h2>
@@ -77,7 +90,7 @@ function About() {
       </div>
       <section className="container">
         <Accordion className="container p-5 accordion">
-          <Card bg="light" border="primary">
+          <Card className="card-bg">
             <Card.Header>
               <Accordion.Toggle as={Button} variant="link" eventKey="0">
                 Auto Calculation
@@ -92,7 +105,7 @@ function About() {
               </Card.Body>
             </Accordion.Collapse>
           </Card>
-          <Card bg="light" border="primary">
+          <Card className="card-bg">
             <Card.Header>
               <Accordion.Toggle as={Button} variant="link" eventKey="1">
                 Rates & Wastage Control
@@ -110,7 +123,7 @@ function About() {
               </Card.Body>
             </Accordion.Collapse>
           </Card>
-          <Card bg="light" border="primary">
+          <Card className="card-bg">
             <Card.Header>
               <Accordion.Toggle as={Button} variant="link" eventKey="2">
                 Sale & Purchase
@@ -123,7 +136,7 @@ function About() {
               </Card.Body>
             </Accordion.Collapse>
           </Card>
-          <Card bg="light" border="primary">
+          <Card className="card-bg">
             <Card.Header>
               <Accordion.Toggle as={Button} variant="link" eventKey="3">
                 Reprint
@@ -138,7 +151,7 @@ function About() {
               </Card.Body>
             </Accordion.Collapse>
           </Card>
-          <Card bg="light" border="primary">
+          <Card className="card-bg">
             <Card.Header>
               <Accordion.Toggle as={Button} variant="link" eventKey="4">
                 Ledger
@@ -150,7 +163,7 @@ function About() {
               </Card.Body>
             </Accordion.Collapse>
           </Card>
-          <Card bg="light" border="primary">
+          <Card className="card-bg">
             <Card.Header>
               <Accordion.Toggle as={Button} variant="link" eventKey="5">
                 Estimation,Costing & Pricing
@@ -163,7 +176,7 @@ function About() {
               </Card.Body>
             </Accordion.Collapse>
           </Card>
-          <Card bg="light" border="primary">
+          <Card className="card-bg">
             <Card.Header>
               <Accordion.Toggle as={Button} variant="link" eventKey="6">
                 Stock Journal
@@ -176,7 +189,7 @@ function About() {
               </Card.Body>
             </Accordion.Collapse>
           </Card>
-          <Card bg="light" border="primary">
+          <Card className="card-bg">
             <Card.Header>
               <Accordion.Toggle as={Button} variant="link" eventKey="7">
                 Forecasting
@@ -194,7 +207,7 @@ function About() {
               </Card.Body>
             </Accordion.Collapse>
           </Card>
-          <Card bg="light" border="primary">
+          <Card className="card-bg">
             <Card.Header>
               <Accordion.Toggle as={Button} variant="link" eventKey="8">
                 Inventory
@@ -206,7 +219,7 @@ function About() {
               </Card.Body>
             </Accordion.Collapse>
           </Card>
-          <Card bg="light" border="primary">
+          <Card className="card-bg">
             <Card.Header>
               <Accordion.Toggle as={Button} variant="link" eventKey="9">
                 Movements
@@ -231,7 +244,7 @@ function About() {
               </Card.Body>
             </Accordion.Collapse>
           </Card>
-          <Card bg="light" border="primary">
+          <Card className="card-bg">
             <Card.Header>
               <Accordion.Toggle as={Button} variant="link" eventKey="10">
                 BOM
@@ -244,7 +257,7 @@ function About() {
               </Card.Body>
             </Accordion.Collapse>
           </Card>
-          <Card bg="light" border="primary">
+          <Card className="card-bg">
             <Card.Header>
               <Accordion.Toggle as={Button} variant="link" eventKey="11">
                 Order Process
@@ -257,7 +270,7 @@ function About() {
               </Card.Body>
             </Accordion.Collapse>
           </Card>
-          <Card bg="light" border="primary">
+          <Card className="card-bg">
             <Card.Header>
               <Accordion.Toggle as={Button} variant="link" eventKey="12">
                 User Control

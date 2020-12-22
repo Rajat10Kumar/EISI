@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body{
+  font-family: 'Roboto',sans-serif;
+}
 .header-area ul li a .btn {
   transition: all 0.2s ease-in;
   font-size: 1.4rem;
@@ -46,14 +49,14 @@
 .header-area ul li {
   list-style: none;
   position: relative;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
 }
 .header-area ul li a {
   position: relative;
   transition: 0.6s;
-  margin: 0 25px;
+  margin: 0 20px;
   text-decoration: none;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   font-weight: 500;
   color: #fff;
 }
@@ -124,19 +127,13 @@ header #check {
   .header-area ul {
     position: fixed;
     width: 100%;
-    height:100vh;
-    background-color: #0093e9;
-    background-image: linear-gradient(
-      180deg,
-      #0093e9 0%,
-      #008df5 33%,
-      #07c2ee 66%,
-      #ffffff 100%
-    );
+    height: 100vh;
+    background-color: #21d4fd;
+    background-image: linear-gradient(19deg, #21d4fd 15%, #21acff 100%);
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
-    top: 70px;
+    top: 72px;
     left: -110%;
     text-align: start;
     transition: all 0.4s;
@@ -144,11 +141,12 @@ header #check {
     font-weight: 800;
   }
   .header-area ul li {
-    font-size: 0.76rem;
+    font-size: 1.1rem;
     transition: 0.4s;
-    padding: 35px 0;
-    margin: 20px 0;
+    padding: 15px 0;
+    margin: 40px 0;
     text-transform: uppercase;
+    border-bottom: 1px solid #fff;
   }
   .header-area ul li a .btn {
     transition: all 0.2s ease-in;
