@@ -18,6 +18,20 @@ import avatar5 from "../assets/avatar5.png";
 import avatar6 from "../assets/avatar6.png";
 import avatar7 from "../assets/avatar7.png";
 import avatar8 from "../assets/avatar8.png";
+import customer1 from "../assets/customer1.png";
+import customer2 from "../assets/customer2.jpg";
+import customer3 from "../assets/customer3.png";
+import customer4 from "../assets/customer4.jpg";
+import customer5 from "../assets/image008.jpg";
+import customer6 from "../assets/image017.jpg";
+import customer7 from "../assets/image009.jpg";
+import customer8 from "../assets/image010.jpg";
+import customer9 from "../assets/image011.jpg";
+import customer10 from "../assets/image012.jpg";
+import customer11 from "../assets/image013.jpg";
+import customer12 from "../assets/image014.jpg";
+import customer13 from "../assets/image015.jpg";
+import customer14 from "../assets/image016.jpg";
 import {
   FcAcceptDatabase,
   FcApproval,
@@ -57,17 +71,12 @@ function Home() {
       <div className="grid-2 mt-5">
         <div className="container text-center mt-5">
           <h1 className="container mt-5">Easy Info Solutions International</h1>
-          <p className="container">
-            Printing & Publishing MIS Software Expert
-          </p>
+          <p className="container">Printing & Publishing MIS Software Expert</p>
           <p className="container">Printing & Publishing</p>
           <p className="container">
             <i>Needs Much More than A Standard Accounting Software</i>
           </p>
-          <Button
-            className="button"
-            onClick={() => setSmShow(true)}
-          >
+          <Button className="button" onClick={() => setSmShow(true)}>
             <h5 className="mt-1">Contact Us</h5>
           </Button>
         </div>
@@ -118,12 +127,12 @@ function Home() {
       </div>
       <div className="container grid-2">
         <Fade left>
-          <div className="container">
+          <div className="container work">
             <Image src={modules} className="home3" />
           </div>
         </Fade>
         <Fade right>
-          <div className="container">
+          <div className="container work">
             <Image src={testimonals} className="home3" />
           </div>
         </Fade>
@@ -194,7 +203,9 @@ function Home() {
                     className="rounded-circle p-5"
                   />
                   <Card.Body>
-                    <Card.Title className="text-center">MD,Avinash Thakur</Card.Title>
+                    <Card.Title className="text-center">
+                      MD,Avinash Thakur
+                    </Card.Title>
                     <Card.Text className="p-1 my-1 tm-p">
                       Some quick example text to build on the card title and
                       make up the bulk of the card's content.
@@ -210,7 +221,9 @@ function Home() {
                     className="rounded-circle p-5"
                   />
                   <Card.Body>
-                    <Card.Title className="text-center">Production Head,Avinash Thakur</Card.Title>
+                    <Card.Title className="text-center">
+                      Production Head,Avinash Thakur
+                    </Card.Title>
                     <Card.Text className="p-1 my-1 tm-p">
                       Some quick example text to build on the card title and
                       make up the bulk of the card's content.
@@ -226,7 +239,9 @@ function Home() {
                     className="rounded-circle p-5"
                   />
                   <Card.Body>
-                    <Card.Title className="text-center">MD,Avinash Thakur</Card.Title>
+                    <Card.Title className="text-center">
+                      MD,Avinash Thakur
+                    </Card.Title>
                     <Card.Text className="p-1 my-1 tm-p">
                       Some quick example text to build on the card title and
                       make up the bulk of the card's content.
@@ -242,7 +257,9 @@ function Home() {
                     className="rounded-circle p-5"
                   />
                   <Card.Body>
-                    <Card.Title className="text-center">MD,Avinash Thakur</Card.Title>
+                    <Card.Title className="text-center">
+                      MD,Avinash Thakur
+                    </Card.Title>
                     <Card.Text className="p-1 my-1 tm-p">
                       Some quick example text to build on the card title and
                       make up the bulk of the card's content.
@@ -258,7 +275,9 @@ function Home() {
                     className="rounded-circle p-5"
                   />
                   <Card.Body>
-                    <Card.Title className="text-center">MD,Avinash Thakur</Card.Title>
+                    <Card.Title className="text-center">
+                      MD,Avinash Thakur
+                    </Card.Title>
                     <Card.Text className="p-1 my-1 tm-p">
                       Some quick example text to build on the card title and
                       make up the bulk of the card's content.
@@ -274,7 +293,9 @@ function Home() {
                     className="rounded-circle p-5"
                   />
                   <Card.Body>
-                    <Card.Title className="text-center">MD,Avinash Thakur</Card.Title>
+                    <Card.Title className="text-center">
+                      MD,Avinash Thakur
+                    </Card.Title>
                     <Card.Text className="p-1 my-1 tm-p">
                       Some quick example text to build on the card title and
                       make up the bulk of the card's content.
@@ -290,7 +311,9 @@ function Home() {
                     className="rounded-circle p-5"
                   />
                   <Card.Body>
-                    <Card.Title className="text-center">MD,Avinash Thakur</Card.Title>
+                    <Card.Title className="text-center">
+                      MD,Avinash Thakur
+                    </Card.Title>
                     <Card.Text className="p-1 my-1 tm-p">
                       Some quick example text to build on the card title and
                       make up the bulk of the card's content.
@@ -304,6 +327,51 @@ function Home() {
       </section>
       <div className="container">
         <Image src={home} alt="home" className="home1" />
+      </div>
+      <h3 className="text-center container my-5">Our Valuable Clients</h3>
+      <div className="container customers">
+        <div className="container">
+          <Image src={customer1} className="mr-2" />
+        </div>
+        <div className="container">
+          <Image src={customer2} className="mr-2" />
+        </div>
+        <div className="container">
+          <Image src={customer4} className="mr-2" />
+        </div>
+        <div className="container">
+          <Image src={customer5} className="mr-2" />
+        </div>
+        <div className="container">
+          <Image src={customer6} className="mr-2" />
+        </div>
+        <div className="container">
+          <Image src={customer7} className="mr-2" />
+        </div>
+        <div className="container">
+          <Image src={customer8} className="mr-2" />
+        </div>
+        <div className="container">
+          <Image src={customer9} className="mr-2" />
+        </div>
+        <div className="container">
+          <Image src={customer10} className="mr-2" />
+        </div>
+        <div className="container">
+          <Image src={customer11} className="mr-2" />
+        </div>
+        <div className="container">
+          <Image src={customer12} className="mr-2" />
+        </div>
+        <div className="container">
+          <Image src={customer13} className="mr-2" />
+        </div>
+        <div className="container">
+          <Image src={customer14} className="mr-2" />
+        </div>
+        <div className="container">
+          <Image src={customer3} className="mr-2" />
+        </div>
       </div>
       <section className="container my-5 grid-2">
         <div className="container map">

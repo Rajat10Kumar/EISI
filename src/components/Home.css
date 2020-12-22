@@ -23,9 +23,15 @@
   width: 80%;
   transition: all 0.2s ease-in;
 }
+div.container.customers {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
 div > div > .home3 {
   height: 100%;
   width: 100%;
+  margin: 0 50px;
   transition: all 0.2s ease-in;
 }
 section.bg-section {
@@ -141,6 +147,18 @@ section div p.container {
   text-align: start;
   padding: 20px 15px;
 }
+@media screen and (max-width: 1280px) {
+  div > div > .home3 {
+    height: 100%;
+    width: 80%;
+    margin: 10px;
+  }
+  div.container.customers {
+    grid-template-columns: repeat(2, 0.8fr);
+    grid-template-rows: repeat(7, 1fr);
+    gap: 0.4rem;
+  }
+}
 @media screen and (max-width: 1080px) {
   .grid-2 {
     display: flex;
@@ -151,6 +169,9 @@ section div p.container {
   }
   .grid-2 p {
     font-size: 1rem;
+  }
+  div.container.customers {
+    grid-template-columns: repeat(2, 0.5fr);
   }
   div > div > .button {
     padding: 0 8px;
@@ -178,9 +199,11 @@ section div p.container {
     margin: 0;
   }
   div > div > .home3 {
-    height: 70%;
-    width: 70%;
-    margin: 0 150px;
+    height: 50%;
+    width: 50%;
+  }
+  div div.container.work {
+    margin-right: 100px;
   }
   section.grid-6 {
     grid-template-columns: repeat(4, 1fr);
@@ -209,10 +232,21 @@ section div p.container {
     font-size: 6rem;
   }
 }
+@media screen and (max-width: 990px) {
+  div.container.customers {
+    grid-template-columns: repeat(2, 0.4fr);
+    gap: 0.1rem;
+    grid-template-rows: repeat(7, 1fr);
+  }
+}
 @media screen and (max-width: 965px) {
   section div .m-logo {
     font-size: 7rem;
     padding: 0;
+  }
+  div.container.customers {
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-rows: repeat(4, 1fr); */
   }
   .container .home1 {
     height: 70%;
@@ -344,7 +378,7 @@ section div p.container {
   section div.container.map {
     width: 100%;
     height: 30%;
-    margin: 100px 0;
+    margin: 150px 0;
   }
   .container .home1 {
     height: 75%;
@@ -398,5 +432,19 @@ section div p.container {
   }
   section.grid-6 {
     gap: 0.5rem;
+  }
+  div.container.customers div.container {
+    height: 100px;
+    width: 100px;
+  }
+  div.container.customers {
+    grid-template-rows: repeat(14, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: -10px;
+  }
+  div.container.customers div.container .mr-2 {
+    height: 50px;
+    width: 100px;
+    margin: 10px 5px;
   }
 }
