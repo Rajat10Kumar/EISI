@@ -1,16 +1,7 @@
 import React from "react";
-import {
-  Image,
-  Card,
-  Accordion,
-  Button,
-  Table,
-  Form,
-  Col,
-  Row,
-} from "react-bootstrap";
+import { Image, Card, Accordion, Button, Table } from "react-bootstrap";
 import "./About.css";
-import { Fade, Slide } from "react-reveal";
+import { Fade } from "react-reveal";
 import software from "../assets/software.jpg";
 import about from "../assets/about.svg";
 import features from "../assets/29938.jpg";
@@ -51,7 +42,11 @@ function About() {
           </Fade>
         </div>
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 319" style={{marginTop:"-32px"}}>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 319"
+        style={{ marginTop: "-32px" }}
+      >
         <path
           fill="#007bff"
           fill-opacity="1"
@@ -290,7 +285,7 @@ function About() {
           striped
           bordered
           hover
-          variant="dark"
+          variant="light"
           size="sm"
           className="table"
         >

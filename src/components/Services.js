@@ -1,9 +1,5 @@
 import React from "react";
-import {
-  Image,
-  ListGroup,
-  ListGroupItem,
-} from "react-bootstrap";
+import { Image, ListGroup, ListGroupItem } from "react-bootstrap";
 import services from "../assets/services.jpg";
 import "./Services.css";
 import { Table } from "react-bootstrap";
@@ -12,10 +8,10 @@ function Services() {
   return (
     <div>
       <div className="grid-2 my-5">
-        <div className="container">
+        <div className="container" id="services">
           <h1 className="text-center mt-5">Services</h1>
           <Slide left>
-            <ListGroup className="list" >
+            <ListGroup className="list">
               <ListGroupItem action href="#link1">
                 Inventory Management (MIS)
               </ListGroupItem>
@@ -42,16 +38,24 @@ function Services() {
         </div>
       </div>
       <div className="container">
-         <h5>Services in our <b>AMC</b> includes the following : </h5>
-          <ul className="ml-3">
-            <li>You will be timely updated about  the Latest Release Information Through SMS/Email.</li>
-            <li>Priority Promt Response To All Your Complaints You Being A Premium Customer.</li>
-            <li>Training Webinars On Specific Relevant Topics.</li>
-            <li>Online Support On Discord/Anydesk.</li>
-            <li>Telephonic Support.</li>
-          </ul>
+        <h5>
+          Services in our <b>AMC</b> includes the following :{" "}
+        </h5>
+        <ul className="ml-3">
+          <li>
+            You will be timely updated about the Latest Release Information
+            Through SMS/Email.
+          </li>
+          <li>
+            Priority Promt Response To All Your Complaints You Being A Premium
+            Customer.
+          </li>
+          <li>Training Webinars On Specific Relevant Topics.</li>
+          <li>Online Support On Discord/Anydesk.</li>
+          <li>Telephonic Support.</li>
+        </ul>
       </div>
-      <div className="container my-5 py-2">
+      <div className="container my-5 py-2" id="prices">
         <h4 className="text-center">Prices</h4>
         <Table striped bordered hover size="sm" className="table">
           <thead>

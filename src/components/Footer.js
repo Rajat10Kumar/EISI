@@ -9,6 +9,7 @@ import {
   AiOutlineYoutube,
 } from "react-icons/ai";
 import { VscLocation } from "react-icons/vsc";
+import { Link } from "react-scroll";
 import "./Footer.css";
 function Footer() {
   return (
@@ -42,7 +43,7 @@ function Footer() {
               </li>
               <li className="mb-2">
                 <a
-                  href="#"
+                  href="https://twitter.com/EasyInfoSoluti1#"
                   target="_blank"
                   className="text-white ml-1 text-decoration-none"
                 >
@@ -52,7 +53,7 @@ function Footer() {
               </li>
               <li className="mb-2">
                 <a
-                  href="#"
+                  href="https://www.facebook.com/easyinfo.inter/"
                   target="_blank"
                   className="text-white ml-1 text-decoration-none"
                 >
@@ -65,11 +66,36 @@ function Footer() {
           <div className="col-lg-2 mb-2 aboutus">
             <h6 className="text-uppercase font-weight-bold mb-4">About Us</h6>
             <ul className="list-unstyled mb-0">
-              <li className="mb-2">Testimonials</li>
-              <li className="mb-2">Internships</li>
-              <li className="mb-2">Terms of Services</li>
-              <li className="mb-2">Privacy</li>
-              <li className="mb-2">Sponsorships</li>
+              <li className="mb-2">
+                <Link
+                  to="testimonials"
+                  smooth={true}
+                  duration={1000}
+                  offset={-70}
+                >
+                  Testimonials
+                </Link>
+              </li>
+              <li className="mb-2">
+                <Link to="services" smooth={true} duration={1000} offset={-20}>
+                  Services
+                </Link>
+              </li>
+              <li className="mb-2">
+                <Link to="prices" smooth={true} duration={1000} offset={-70}>
+                  Prices
+                </Link>
+              </li>
+              <li className="mb-2">
+                <Link to="clients" smooth={true} duration={1000} offset={-70}>
+                  Clients
+                </Link>
+              </li>
+              <li className="mb-2">
+                <Link to="demo" smooth={true} duration={1000}>
+                  Demo
+                </Link>
+              </li>
             </ul>
           </div>
           <div className="col-lg-3 mb-2 contact">

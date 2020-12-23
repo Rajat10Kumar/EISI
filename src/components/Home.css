@@ -27,6 +27,7 @@ div.container.customers {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(4, 1fr);
+  gap: 1rem;
 }
 div > div > .home3 {
   height: 100%;
@@ -46,6 +47,11 @@ section .container .home2 {
   margin: 45px 100px;
   padding: 40px 50px;
   transition: all 0.2s ease-in;
+}
+div.container.customers div.container .mr-2 {
+  height: 100px;
+  width: 250px;
+  margin: 10px 5px;
 }
 
 h1,
@@ -403,12 +409,15 @@ section div p.container {
     width: 100%;
     margin: -10px;
   }
+  div .label {
+    font-size: 0.6rem;
+  }
   div div h1.container {
-    font-size: 1.5rem;
-    text-align: start;
+    font-size: 1.3rem;
+    text-align: center;
   }
   div div p.container {
-    font-size: 1.1rem;
+    font-size: 0.8rem;
   }
   div div p.container i {
     font-size: 0.8rem;
@@ -420,7 +429,7 @@ section div p.container {
   }
   section div p.container {
     font-size: 0.8rem;
-    text-align: start;
+    text-align: justify;
     padding: 20px 15px;
   }
   section div .m-logo {
@@ -440,11 +449,11 @@ section div p.container {
   div.container.customers {
     grid-template-rows: repeat(14, 1fr);
     grid-template-columns: repeat(1, 1fr);
-    margin-left: -10px;
+    margin-left: -25px;
   }
   div.container.customers div.container .mr-2 {
     height: 50px;
-    width: 100px;
+    width: 115px;
     margin: 10px 5px;
   }
 }

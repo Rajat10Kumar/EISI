@@ -4,7 +4,7 @@ import { AiOutlinePlus } from "react-icons/ai";
 import "./Demo.css";
 function Demo() {
   return (
-    <div>
+    <div id="demo">
       <div className="v-bg">
         <div className="container grid-2">
           <div className="container video">
@@ -12,7 +12,8 @@ function Demo() {
               src="https://www.youtube.com/embed/lJWnwGAjzQQ"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
+              allowfullscreen="true"
+              title="Create Sale Order"
             ></iframe>
           </div>
           <div className="container video">
@@ -20,7 +21,8 @@ function Demo() {
               src="https://www.youtube.com/embed/bjMelKAA5xw"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
+              allowfullscreen="true"
+              title="Create Purchase Order"
             ></iframe>
           </div>
           <div className="container video">
@@ -28,7 +30,8 @@ function Demo() {
               src="https://www.youtube.com/embed/BML8nJuVOyA"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
+              allowfullscreen="true"
+              title="Cost Estimation"
             ></iframe>
           </div>
           <div className="container video">
@@ -36,7 +39,8 @@ function Demo() {
               src="https://www.youtube.com/embed/DrFeoTaqA-Y"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
+              allowfullscreen="true"
+              title="Paper Masters"
             ></iframe>
           </div>
           <div className="container video">
@@ -44,7 +48,8 @@ function Demo() {
               src="https://www.youtube.com/embed/AVu3rfA_9SU"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
+              allowfullscreen="true"
+              title="Easy Publish Module"
             ></iframe>
           </div>
         </div>

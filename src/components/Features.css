@@ -156,7 +156,7 @@ svg path.premium {
     font-weight: 600;
   }
   div div div.features .card ul li {
-    text-align: start;
+    text-align: justify;
     font-size: 0.6rem;
   }
   div div div.features .card .buynow {

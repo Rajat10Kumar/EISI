@@ -1,10 +1,7 @@
 import React, { useState } from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
-import { Image } from "react-bootstrap";
-import logo from "../assets/analytics.svg";
 import { FaBars } from "react-icons/fa";
-import { on } from "react-use/lib/util";
 import { useToggle } from "react-use";
 function Navbar() {
   const [navbar, setNavbar] = useState(false);
@@ -19,7 +16,7 @@ function Navbar() {
   window.addEventListener("scroll", changenavbar);
   return (
     <header className={navbar ? "header-area sticky" : "header-area"}>
-      <a href="#" className="logo mb-2">
+      <a className="logo mb-2">
         <Link to="/" className="text-decoration-none main-logo">
           EISI
         </Link>

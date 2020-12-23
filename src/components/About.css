@@ -20,7 +20,8 @@ section div .about-us {
   width: 100%;
 }
 div div p {
-  text-align: start;
+  text-align: justify;
+  font-size: 1.2rem;
 }
 div div.container-sm {
   width: "100px";
@@ -77,20 +78,28 @@ div div.container-sm {
   }
   div div p {
     font-size: 0.8rem;
-    text-align: start;
+    text-align: justify;
   }
   div div.container-sm {
     width: "100px";
     height: "300px";
   }
-  section .accordion {
+  section.container .accordion {
     font-size: 0.7rem;
     text-align: start;
+    margin: 0 8px;
   }
   section .accordion .card-bg {
     font-size: 0.8rem;
-    background-color: #dcffff;
-    background-image: linear-gradient(0deg, #dcffff 25%, #9cffff 50%);
+    text-align: start;
+    /* background-color: #dcffff;
+    background-image: linear-gradient(0deg, #dcffff 25%, #9cffff 50%); */
+    background-image: url("../assets/19007.jpg");
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   div div h2 {
     font-size: 1.2rem;
@@ -98,8 +107,8 @@ div div.container-sm {
   div.container h1 {
     font-size: 1.2rem;
   }
-  div.container .table {
+  div.container.my-5 .table {
     width: 250px;
-    margin: 0 50px 10px 40px;
+    margin: 0 40px 10px 60px;
   }
 }

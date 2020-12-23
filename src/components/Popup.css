@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div.btn-feedback {
+  position: fixed;
+  top: 430px;
+  right: -40px;
+  padding: 10px;
+  letter-spacing: 1.2px;
+  z-index: 10;
+  animation: buttonscroll 0.5s alternate ease infinite;
+}
+div.btn-feedback .rotate {
+  transform: rotate(90deg);
+}
+
+@keyframes buttonscroll {
+  from {
+    transform: translateY(2px);
+  }
+  to {
+    transform: translateY(-2px);
+  }
+}
+@media screen and (max-width: 425px) {
+  div.btn-feedback {
+    right: -40px;
+    top: 450px;
+  }
+}

@@ -232,34 +232,34 @@ function Features() {
             <tbody>
               <tr>
                 <td>Customization per feature</td>
-                <td>Rs. 9999</td>
+                <td>INR 9999</td>
                 <td>Single to Multiuser Upgrade(4 User Free)</td>
-                <td>Rs. 12000</td>
+                <td>INR 12000</td>
               </tr>
               <tr>
                 <td>Costing Module</td>
-                <td>Rs. 9999</td>
+                <td>INR 9999</td>
                 <td>Additional User</td>
-                <td>Rs. 3999</td>
+                <td>INR 3999</td>
               </tr>
               <tr>
                 <td>
                   Forecasting and Supplement order planning management
                   (Intergrated with Busy)
                 </td>
-                <td>Rs. 19999</td>
+                <td>INR 19999</td>
                 <td>Additional 4 User pack for Multi-user operations</td>
-                <td>Rs. 11999</td>
+                <td>INR 11999</td>
               </tr>
               <tr>
                 <td>Work flow approval</td>
-                <td>Rs. 4999</td>
+                <td>INR 4999</td>
                 <td>Additional Company</td>
-                <td>Rs. 4999</td>
+                <td>INR 4999</td>
               </tr>
               <tr>
                 <td>Editorial status Tracker</td>
-                <td>Rs. 39999</td>
+                <td>INR 39999</td>
                 <td>
                   Annual subscription for user version upgrade including
                   support(Basic Price)
@@ -268,7 +268,7 @@ function Features() {
               </tr>
               <tr>
                 <td>Email/SMS Integration</td>
-                <td>Rs. 9999</td>
+                <td>INR 9999</td>
                 <td>
                   Branch/Reference discount applicable from 2nd branch onwards
                 </td>
@@ -290,32 +290,32 @@ function Features() {
                 <td>Remote SQL Server Hosting as peractual</td>
                 <td>As per Actual</td>
                 <td>Basic Installation(Single & Multi user)</td>
-                <td>Rs. 10000</td>
+                <td>INR 10000</td>
               </tr>
               <tr>
                 <td>Busy Software</td>
                 <td>AS per Actual</td>
                 <td>Subscription module (single user annual)</td>
-                <td>Rs. 18000</td>
+                <td>INR 18000</td>
               </tr>
               <tr>
                 <td>Busy Intergration module</td>
-                <td>Rs. 19999</td>
+                <td>INR 19999</td>
                 <td>Subscription module (multi user annual)</td>
-                <td>Rs. 30000</td>
+                <td>INR 30000</td>
               </tr>
               <tr>
                 <td>
                   Branch Management (Remote Connectibity) Automatic
                   Synchronization of data & availability based on user rights
                 </td>
-                <td>Rs. 19999</td>
+                <td>INR 19999</td>
                 <td>Dipatch Management</td>
-                <td>Rs. 75000</td>
+                <td>INR 75000</td>
               </tr>
               <tr>
                 <td colSpan={2}>CRM Management</td>
-                <td colSpan={2}>Rs. 30000</td>
+                <td colSpan={2}>INR 30000</td>
               </tr>
             </tbody>
           </Table>

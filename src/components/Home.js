@@ -18,9 +18,9 @@ import avatar5 from "../assets/avatar5.png";
 import avatar6 from "../assets/avatar6.png";
 import avatar7 from "../assets/avatar7.png";
 import avatar8 from "../assets/avatar8.png";
-import customer1 from "../assets/customer1.png";
+import customer1 from "../assets/customer1.jpg";
 import customer2 from "../assets/customer2.jpg";
-import customer3 from "../assets/customer3.png";
+import customer3 from "../assets/customer3.jpg";
 import customer4 from "../assets/customer4.jpg";
 import customer5 from "../assets/image008.jpg";
 import customer6 from "../assets/image017.jpg";
@@ -32,6 +32,7 @@ import customer11 from "../assets/image013.jpg";
 import customer12 from "../assets/image014.jpg";
 import customer13 from "../assets/image015.jpg";
 import customer14 from "../assets/image016.jpg";
+import "./Footer";
 import {
   FcAcceptDatabase,
   FcApproval,
@@ -53,10 +54,10 @@ import testimonals from "../assets/4393.jpg";
 import section from "../assets/showcase.svg";
 import "./Home.css";
 import MyMapComponent from "./Map";
-function Home() {
+function Home(props) {
   const [smShow, setSmShow] = useState(false);
   const container = useRef(null);
-
+  // console.log(props);
   useEffect(() => {
     lottie.loadAnimation({
       container: container.current,
@@ -190,7 +191,7 @@ function Home() {
         </section>
       </Fade>
       <section className="testimonals mt-5">
-        <div className="container">
+        <div className="container" id="testimonials">
           <h1>Testimonials</h1>
           <p>See what our client's says..</p>
           <div className="carousel-center">
@@ -307,6 +308,24 @@ function Home() {
                 <Card className="card">
                   <Card.Img
                     variant="top"
+                    src={avatar7}
+                    className="rounded-circle p-5"
+                  />
+                  <Card.Body>
+                    <Card.Title className="text-center">
+                      MD,Avinash Thakur
+                    </Card.Title>
+                    <Card.Text className="p-1 my-1 tm-p">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+              </Carousel.Item>
+              <Carousel.Item interval={1000}>
+                <Card className="card">
+                  <Card.Img
+                    variant="top"
                     src={avatar8}
                     className="rounded-circle p-5"
                   />
@@ -328,7 +347,9 @@ function Home() {
       <div className="container">
         <Image src={home} alt="home" className="home1" />
       </div>
-      <h3 className="text-center container my-5">Our Valuable Clients</h3>
+      <h3 className="text-center container my-5" id="clients">
+        Our Valuable Clients
+      </h3>
       <div className="container customers">
         <div className="container">
           <Image src={customer1} className="mr-2" />
@@ -391,11 +412,11 @@ function Home() {
             </em>
             <Form.Row>
               <Form.Group as={Col}>
-                <Form.Label>Full Name</Form.Label>
+                <Form.Label className="label">Full Name</Form.Label>
                 <Form.Control type="text" placeholder="Enter Full Name" />
               </Form.Group>
               <Form.Group as={Col}>
-                <Form.Label>Organization Name</Form.Label>
+                <Form.Label className="label">Organization Name</Form.Label>
                 <Form.Control
                   type="text"
                   placeholder="Enter Organization Name"
@@ -404,12 +425,12 @@ function Home() {
             </Form.Row>
             <Form.Row>
               <Form.Group as={Col}>
-                <Form.Label>Email</Form.Label>
+                <Form.Label className="label">Email</Form.Label>
                 <Form.Control type="email" placeholder="Enter email" />
               </Form.Group>
               <Form.Group as={Col}>
                 <Form.Label
-                  className="mr-2"
+                  className="mr-2 label"
                   htmlFor="inlineFormCustomSelectPref"
                 >
                   Preference
@@ -429,13 +450,13 @@ function Home() {
                 </Form.Control>
               </Form.Group>
               <Form.Group as={Col} className="tel">
-                <Form.Label>Telephone Number</Form.Label>
+                <Form.Label className="label">Telephone Number</Form.Label>
                 <Form.Control type="tel" placeholder="Telephone Number" />
               </Form.Group>
             </Form.Row>
             <Form.Row>
               <Form.Group as={Col} className="msg">
-                <Form.Label>Message</Form.Label>
+                <Form.Label className="label">Message</Form.Label>
                 <Form.Control as="textarea" placeholder="Message" />
               </Form.Group>
             </Form.Row>
