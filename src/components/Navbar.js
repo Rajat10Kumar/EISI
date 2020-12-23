@@ -3,6 +3,8 @@ import "./Navbar.css";
 import { Link } from "react-router-dom";
 import { FaBars } from "react-icons/fa";
 import { useToggle } from "react-use";
+import logo from "../assets/logo.png";
+import { Image } from "react-bootstrap";
 function Navbar() {
   const [navbar, setNavbar] = useState(false);
   const [active, setActive] = useToggle(false);
@@ -18,7 +20,7 @@ function Navbar() {
     <header className={navbar ? "header-area sticky" : "header-area"}>
       <a className="logo mb-2">
         <Link to="/" className="text-decoration-none main-logo">
-          EISI
+          <Image src={logo} width="50px" height="50px" /> EISI
         </Link>
       </a>
       <ul className={active ? "active" : null}>

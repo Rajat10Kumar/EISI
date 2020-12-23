@@ -141,6 +141,9 @@ section .container .carousel-center .carousel .card {
   padding: 1rem;
   transition: all 0.2s ease-in;
 }
+section .container .carousel-center .carousel .card .tm-p {
+  text-align: justify;
+}
 section.testimonals div p {
   text-align: center;
 }
@@ -370,6 +373,7 @@ section div p.container {
   }
   section .container .carousel-center .carousel .card .tm-p {
     font-size: 0.6rem;
+    text-align: justify;
   }
   section div div .rounded-circle {
     height: 200px;

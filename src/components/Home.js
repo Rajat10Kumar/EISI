@@ -223,7 +223,7 @@ function Home(props) {
                   />
                   <Card.Body>
                     <Card.Title className="text-center">
-                      Production Head,Avinash Thakur
+                      MD,Avinash Thakur
                     </Card.Title>
                     <Card.Text className="p-1 my-1 tm-p">
                       Some quick example text to build on the card title and

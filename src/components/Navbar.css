@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-body{
-  font-family: 'Roboto',sans-serif;
+body {
+  font-family: "Roboto", sans-serif;
 }
 .header-area ul li a .btn {
   transition: all 0.2s ease-in;
@@ -50,13 +50,14 @@ body{
   list-style: none;
   position: relative;
   font-size: 1.3rem;
+  margin-top: 12px;
 }
 .header-area ul li a {
   position: relative;
   transition: 0.6s;
-  margin: 0 20px;
+  margin: 30px;
   text-decoration: none;
-  letter-spacing: 1px;
+  letter-spacing: 0.8px;
   font-weight: 500;
   color: #fff;
 }
@@ -135,7 +136,7 @@ header #check {
     -webkit-backdrop-filter: blur(20px);
     top: 72px;
     left: -110%;
-    text-align: start;
+    text-align: center;
     transition: all 0.4s;
     display: block;
     font-weight: 800;
@@ -147,6 +148,7 @@ header #check {
     margin: 40px 0;
     text-transform: uppercase;
     border-bottom: 1px solid #fff;
+    text-align: center;
   }
   .header-area ul li a .btn {
     transition: all 0.2s ease-in;
