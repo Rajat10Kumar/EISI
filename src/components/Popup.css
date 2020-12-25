@@ -6,7 +6,7 @@
 
 div.btn-feedback {
   position: fixed;
-  top: 430px;
+  top: 420px;
   right: -40px;
   padding: 10px;
   letter-spacing: 1.2px;
@@ -19,15 +19,15 @@ div.btn-feedback .rotate {
 
 @keyframes buttonscroll {
   from {
-    transform: translateY(2px);
+    transform: translateY(20px);
   }
   to {
-    transform: translateY(-2px);
+    transform: translateY(-10px);
   }
 }
 @media screen and (max-width: 425px) {
   div.btn-feedback {
     right: -40px;
-    top: 450px;
+    top: 350px;
   }
 }

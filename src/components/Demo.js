@@ -59,7 +59,7 @@ function Demo() {
             <Card>
               <Card.Header>
                 <Accordion.Toggle as={Button} variant="link" eventKey="0">
-                  <AiOutlinePlus className="mr-2" />
+                  <AiOutlinePlus className="mr-3" />
                   For whom this software has been developed?
                 </Accordion.Toggle>
               </Card.Header>
@@ -76,7 +76,7 @@ function Demo() {
             <Card>
               <Card.Header>
                 <Accordion.Toggle as={Button} variant="link" eventKey="1">
-                  <AiOutlinePlus className="mr-2" />
+                  <AiOutlinePlus className="mr-3" />
                   Is it multi user and how many modules are available ?
                 </Accordion.Toggle>
               </Card.Header>
@@ -90,7 +90,7 @@ function Demo() {
             <Card>
               <Card.Header>
                 <Accordion.Toggle as={Button} variant="link" eventKey="2">
-                  <AiOutlinePlus className="mr-2" />
+                  <AiOutlinePlus className="mr-3" />
                   Can I See Demo or Buy “Easy Publish” ?
                 </Accordion.Toggle>
               </Card.Header>
@@ -106,7 +106,7 @@ function Demo() {
             <Card>
               <Card.Header>
                 <Accordion.Toggle as={Button} variant="link" eventKey="3">
-                  <AiOutlinePlus className="mr-2" />
+                  <AiOutlinePlus className="mr-3" />
                   How can I get License Activation Key ?
                 </Accordion.Toggle>
               </Card.Header>
@@ -120,7 +120,7 @@ function Demo() {
             <Card>
               <Card.Header>
                 <Accordion.Toggle as={Button} variant="link" eventKey="4">
-                  <AiOutlinePlus className="mr-2" />
+                  <AiOutlinePlus className="mr-3" />
                   Hardware Requirements
                 </Accordion.Toggle>
               </Card.Header>
@@ -129,11 +129,10 @@ function Demo() {
                   <ul className="list-unstyled">
                     <li>
                       {" "}
-                      Min. Processor type: Pentium III-compatible processor or
-                      faster
+                      Min. Processor type: i3-compatible processor or faste
                     </li>
-                    <li>Processor speed: Minimum: 1.0 GHz</li>
-                    <li>Recommended: 2.0 GHz or faster</li>
+                    <li>Processor speed: Minimum: 4.3 GHz</li>
+                    <li>Recommended: 4.2 GHz or faster</li>
                     <li>Operating System : Windows XP Onwards</li>
                     <li>Memory RAM: Minimum: 512 MB</li>
                     <li>Recommended: 2.048 GB or more</li>

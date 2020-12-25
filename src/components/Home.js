@@ -32,6 +32,9 @@ import customer11 from "../assets/image013.jpg";
 import customer12 from "../assets/image014.jpg";
 import customer13 from "../assets/image015.jpg";
 import customer14 from "../assets/image016.jpg";
+import customer15 from "../assets/image025.jpg";
+import customer16 from "../assets/image026.jpg";
+import customer17 from "../assets/image041.jpg";
 import "./Footer";
 import {
   FcAcceptDatabase,
@@ -72,10 +75,18 @@ function Home(props) {
       <div className="grid-2 mt-5">
         <div className="container text-center mt-5">
           <h1 className="container mt-5">Easy Info Solutions International</h1>
-          <p className="container">Printing & Publishing MIS Software Expert</p>
-          <p className="container">Printing & Publishing</p>
           <p className="container">
-            <i>Needs Much More than A Standard Accounting Software</i>
+            <i className="text-info">
+              (Printing & Publishing MIS Software Expert)
+            </i>
+          </p>
+          <p className="container text-primary">
+            <q>Printing & Publishing</q>
+          </p>
+          <p className="container">
+            <i className="text-primary">
+              Needs Much More than A Standard Accounting Software
+            </i>
           </p>
           <Button className="button" onClick={() => setSmShow(true)}>
             <h5 className="mt-1">Contact Us</h5>
@@ -146,7 +157,7 @@ function Home(props) {
           </div>
           <div className="bg-white shadow-lg rounded  text-center modules">
             <FcSms className="container m-logo" />
-            <h5>Quotation</h5>
+            <h5>Quotation/Estimation</h5>
           </div>
           <div className="bg-white shadow-lg rounded  text-center modules">
             <FcFlowChart className="container m-logo" />
@@ -178,7 +189,7 @@ function Home(props) {
           </div>
           <div className="bg-white shadow-lg rounded  text-center modules">
             <FcRatings className="container m-logo" />
-            <h5>Paper Accounting (With WIP)</h5>
+            <h5>Paper Stock Ledger</h5>
           </div>
           <div className="bg-white shadow-lg rounded  text-center modules">
             <FcTemplate className="container m-logo" />
@@ -392,6 +403,15 @@ function Home(props) {
         </div>
         <div className="container">
           <Image src={customer3} className="mr-2" />
+        </div>
+        <div className="container">
+          <Image src={customer15} className="mr-2" />
+        </div>
+        <div className="container">
+          <Image src={customer16} className="mr-2" />
+        </div>
+        <div className="container">
+          <Image src={customer17} className="mr-2" />
         </div>
       </div>
       <section className="container my-5 grid-2">

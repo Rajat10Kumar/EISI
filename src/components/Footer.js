@@ -102,8 +102,8 @@ function Footer() {
             <h6 className="text-uppercase font-weight-bold mb-4">Contact Us</h6>
             <ul className="list-unstyled mb-0">
               <li className="mb-2">
-                <VscLocation className="icon" /> E-461 Vijay Marg Jagjeet Nagar
-                Delhi-53 3rd Pusta Ground Floor
+                <VscLocation className="icon" /> E-461 Ground Floor, Vijay Marg
+                Jagjeet Nagar Delhi-53
               </li>
               <li className="mb-2">
                 <AiOutlinePhone className="icon" /> +91-11-7896546

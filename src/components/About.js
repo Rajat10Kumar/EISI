@@ -1,6 +1,7 @@
 import React from "react";
 import { Image, Card, Accordion, Button, Table } from "react-bootstrap";
 import "./About.css";
+import { AiOutlinePlus } from "react-icons/ai";
 import { Fade } from "react-reveal";
 import software from "../assets/software.jpg";
 import about from "../assets/about.svg";
@@ -27,16 +28,16 @@ function About() {
             </p>
             <p className="text-white p-4">
               <q>
-                With more than the two decades of experiences of Printing and
-                Publishing Industry, the developer is well versed with the need
-                and procedures of printing and publishing process. Having come
-                across the frustration and delay, mistakes, irregularities,
+                With more than two decades of experiences in Printing and
+                Publishing Industry, the developer is well versed in the need
+                and procedures of the printing and publishing process. Having
+                come across the frustration and delay, mistakes, irregularities,
                 losses due to common Manual way to handling the jobs and working
                 on software developed by the outside of the trade, the
-                developers then decided to develop “Easy Publish” ,”Easy Print”
+                developers then decided to develop “Easy Publish”,” Easy Print”
                 and “Easy Despatch” to get rid of problems like much time
                 involvement in estimating manually, internal challenges of
-                training of staff, to achieve the uniform results.
+                training of staff, to achieve uniform results.
               </q>
             </p>
           </Fade>
@@ -64,7 +65,7 @@ function About() {
               <q>
                 These software’s are designed for small and medium Publishers
                 and Print houses to guard them against a lot of time
-                involvement, paperwork, the dependence of staff checking, and
+                involvement, paperwork, the dependence on staff checking, and
                 maintaining stock reports for print production management by
                 replacing total paper practice.
               </q>
@@ -88,7 +89,7 @@ function About() {
           <Card className="card-bg">
             <Card.Header>
               <Accordion.Toggle as={Button} variant="link" eventKey="0">
-                Auto Calculation
+                <AiOutlinePlus className="mr-3" /> Auto Calculation
               </Accordion.Toggle>
             </Card.Header>
             <Accordion.Collapse eventKey="0">
@@ -103,7 +104,7 @@ function About() {
           <Card className="card-bg">
             <Card.Header>
               <Accordion.Toggle as={Button} variant="link" eventKey="1">
-                Rates & Wastage Control
+                <AiOutlinePlus className="mr-3" /> Rates & Wastage Control
               </Accordion.Toggle>
             </Card.Header>
             <Accordion.Collapse eventKey="1">
@@ -121,7 +122,7 @@ function About() {
           <Card className="card-bg">
             <Card.Header>
               <Accordion.Toggle as={Button} variant="link" eventKey="2">
-                Sale & Purchase
+                <AiOutlinePlus className="mr-3" /> Sale & Purchase
               </Accordion.Toggle>
             </Card.Header>
             <Accordion.Collapse eventKey="2">
@@ -134,7 +135,7 @@ function About() {
           <Card className="card-bg">
             <Card.Header>
               <Accordion.Toggle as={Button} variant="link" eventKey="3">
-                Reprint
+                <AiOutlinePlus className="mr-3" /> Reprint
               </Accordion.Toggle>
             </Card.Header>
             <Accordion.Collapse eventKey="3">
@@ -149,7 +150,7 @@ function About() {
           <Card className="card-bg">
             <Card.Header>
               <Accordion.Toggle as={Button} variant="link" eventKey="4">
-                Ledger
+                <AiOutlinePlus className="mr-3" /> Ledger
               </Accordion.Toggle>
             </Card.Header>
             <Accordion.Collapse eventKey="4">
@@ -161,7 +162,7 @@ function About() {
           <Card className="card-bg">
             <Card.Header>
               <Accordion.Toggle as={Button} variant="link" eventKey="5">
-                Estimation,Costing & Pricing
+                <AiOutlinePlus className="mr-3" /> Estimation,Costing & Pricing
               </Accordion.Toggle>
             </Card.Header>
             <Accordion.Collapse eventKey="5">
@@ -174,7 +175,7 @@ function About() {
           <Card className="card-bg">
             <Card.Header>
               <Accordion.Toggle as={Button} variant="link" eventKey="6">
-                Stock Journal
+                <AiOutlinePlus className="mr-3" /> Stock Journal
               </Accordion.Toggle>
             </Card.Header>
             <Accordion.Collapse eventKey="6">
@@ -187,7 +188,7 @@ function About() {
           <Card className="card-bg">
             <Card.Header>
               <Accordion.Toggle as={Button} variant="link" eventKey="7">
-                Forecasting
+                <AiOutlinePlus className="mr-3" /> Forecasting
               </Accordion.Toggle>
             </Card.Header>
             <Accordion.Collapse eventKey="7">
@@ -205,7 +206,7 @@ function About() {
           <Card className="card-bg">
             <Card.Header>
               <Accordion.Toggle as={Button} variant="link" eventKey="8">
-                Inventory
+                <AiOutlinePlus className="mr-3" /> Inventory
               </Accordion.Toggle>
             </Card.Header>
             <Accordion.Collapse eventKey="8">
@@ -217,7 +218,7 @@ function About() {
           <Card className="card-bg">
             <Card.Header>
               <Accordion.Toggle as={Button} variant="link" eventKey="9">
-                Movements
+                <AiOutlinePlus className="mr-3" /> Movements
               </Accordion.Toggle>
             </Card.Header>
             <Accordion.Collapse eventKey="9">
@@ -242,7 +243,7 @@ function About() {
           <Card className="card-bg">
             <Card.Header>
               <Accordion.Toggle as={Button} variant="link" eventKey="10">
-                BOM
+                <AiOutlinePlus className="mr-3" /> BOM
               </Accordion.Toggle>
             </Card.Header>
             <Accordion.Collapse eventKey="10">
@@ -255,7 +256,7 @@ function About() {
           <Card className="card-bg">
             <Card.Header>
               <Accordion.Toggle as={Button} variant="link" eventKey="11">
-                Order Process
+                <AiOutlinePlus className="mr-3" /> Order Process
               </Accordion.Toggle>
             </Card.Header>
             <Accordion.Collapse eventKey="11">
@@ -268,7 +269,7 @@ function About() {
           <Card className="card-bg">
             <Card.Header>
               <Accordion.Toggle as={Button} variant="link" eventKey="12">
-                User Control
+                <AiOutlinePlus className="mr-3" /> User Control
               </Accordion.Toggle>
             </Card.Header>
             <Accordion.Collapse eventKey="12">
