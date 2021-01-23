@@ -106,7 +106,7 @@ function Footer() {
                 Jagjeet Nagar Delhi-53
               </li>
               <li className="mb-2">
-                <AiOutlinePhone className="icon" /> +91-11-7896546
+                <AiOutlinePhone className="icon" /> +91 11-71862265
               </li>
               <li className="mb-2">
                 <AiOutlineMail className="icon" /> easyinfosolutionsi@gmail.com

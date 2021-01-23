@@ -52,6 +52,15 @@ function Demo() {
               title="Easy Publish Module"
             ></iframe>
           </div>
+          <div className="container video">
+            <iframe
+              src="https://www.youtube.com/embed/8k4YiPyDy4M"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen="true"
+              title="Account Group master"
+            ></iframe>
+          </div>
         </div>
         <div className="container">
           <h3 className="text-center">FAQ</h3>
@@ -66,7 +75,7 @@ function Demo() {
               <Accordion.Collapse eventKey="0">
                 <Card.Body>
                   These software’s are designed for small and medium Publishers
-                  and Print houses to guard them against lot of time
+                  and Printing houses to guard them against lot of time
                   involvement, paper work, dependence of staff checking, and
                   maintaining stock reports for print production management by
                   replacing total paper practice.
@@ -82,8 +91,9 @@ function Demo() {
               </Card.Header>
               <Accordion.Collapse eventKey="1">
                 <Card.Body>
-                  “Easy Publish” is available in Desktop and Networking modules.
-                  Yes, it is multi user and can be upgrade to more users.
+                  “Easy Publish” is available in Desktop,Networking and
+                  Web-Cloud Server modules. Yes, it is multi user and can be
+                  upgrade to more users.
                 </Card.Body>
               </Accordion.Collapse>
             </Card>
@@ -97,9 +107,11 @@ function Demo() {
               <Accordion.Collapse eventKey="2">
                 <Card.Body>
                   Our Support department is always ready to show on-site or
-                  online Demonstration with the help of Team Viewer software.
-                  Easy info solutions sells directly and has no franchise/middle
-                  man or agent. You can buy by contacting us directly.
+                  online Demonstration with the help of{" "}
+                  <a href="https://meet.google.com/gcb-vxfr-tqp">Google Meet</a>
+                  . Easy info solutions sells directly and has no
+                  franchise/middle man or agent. You can buy by contacting us
+                  directly.
                 </Card.Body>
               </Accordion.Collapse>
             </Card>
@@ -112,8 +124,8 @@ function Demo() {
               </Card.Header>
               <Accordion.Collapse eventKey="3">
                 <Card.Body>
-                  Easy info solutions team take care your installations and
-                  shall generate your activation Key and shall send by e-mail.
+                  Easy info solutions team take care of your installations and
+                  shall generate your activation Key and send by e-mail.
                 </Card.Body>
               </Accordion.Collapse>
             </Card>
@@ -128,15 +140,14 @@ function Demo() {
                 <Card.Body>
                   <ul className="list-unstyled">
                     <li>
-                      {" "}
-                      Min. Processor type: i3-compatible processor or faste
+                      Processor : Intel(R) Core(TM) i3-4005U CPU @1.70GHz
+                      1.70GHz
                     </li>
-                    <li>Processor speed: Minimum: 4.3 GHz</li>
-                    <li>Recommended: 4.2 GHz or faster</li>
-                    <li>Operating System : Windows XP Onwards</li>
-                    <li>Memory RAM: Minimum: 512 MB</li>
-                    <li>Recommended: 2.048 GB or more</li>
-                    Maximum: Operating system maximum
+                    <li>Installled memory : 8.00 GB</li>
+                    <li>Operating System : Windows 10</li>
+                    <li>
+                      System type : 64-bit Operating System,x64-based processor
+                    </li>
                   </ul>
                 </Card.Body>
               </Accordion.Collapse>

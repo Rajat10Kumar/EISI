@@ -318,8 +318,8 @@ function About() {
               <td>10:00 AM - 6:00 PM</td>
             </tr>
             <tr>
-              <td>Saturday</td>
-              <td>10:00 AM - 6:00 PM</td>
+              <td>Saturday - Sunday</td>
+              <td>closed</td>
             </tr>
           </tbody>
         </Table>
