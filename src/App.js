@@ -26,8 +26,11 @@ function App() {
           <Route path="/Services" exact component={Services} />
           <Route path="/Demo" exact component={Demo} />
           <Route path="/Features" exact component={Features} />
-          <Route path="/Certificates/E2016SI123I" exact component={Certificates} />
-
+          <Route
+            path="/Certificates/E2016SI123I"
+            exact
+            component={Certificates}
+          />
         </Switch>
       </Router>
       <ScrollToTop />

@@ -8,7 +8,9 @@ function Popup() {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   window.addEventListener("load", () => {
-    handleShow(true);
+    setTimeout(function () {
+      handleShow(true);
+    }, 10000);
   });
 
   return (
